@@ -1,0 +1,1515 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16260 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Capstone_Unity\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+G:/Capstone_Unity/CSCapstone
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50055
+Successfully changed project path to: G:/Capstone_Unity/CSCapstone
+G:/Capstone_Unity/CSCapstone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21756] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 2669111497 [EditorId] 2669111497 [Version] 1048832 [Id] WindowsEditor(7,Apache) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21756] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 2669111497 [EditorId] 2669111497 [Version] 1048832 [Id] WindowsEditor(7,Apache) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 1050.16 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 5.78 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path G:/Capstone_Unity/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Capstone_Unity/CSCapstone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6043 MB
+    Driver:   31.0.15.3179
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'G:/Capstone_Unity/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Capstone_Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Capstone_Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Capstone_Unity/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Capstone_Unity/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013520 seconds.
+- Loaded All Assemblies, in  1.975 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 572 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.199 seconds
+Domain Reload Profiling: 3173ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (404ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (1194ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1190ms)
+			TypeCache.Refresh (1188ms)
+				TypeCache.ScanAssembly (622ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1076ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (815ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp.dll' will not be loaded due to errors:
+Unable to resolve reference 'Ultraleap.Tracking.Core'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp-Editor.dll' will not be loaded due to errors:
+Reference has errors 'Assembly-CSharp'.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.479 seconds
+Refreshing native plugins compatible for Editor in 21.89 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.89.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.568 seconds
+Domain Reload Profiling: 6043ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (4014ms)
+		LoadAssemblies (3190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (990ms)
+			TypeCache.Refresh (874ms)
+				TypeCache.ScanAssembly (767ms)
+			ScanForSourceGeneratedMonoScriptInfo (80ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (1569ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1148ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (830ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 20.86 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Unloading 6516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (12.0 MB). Loaded Objects now: 6924.
+Memory consumption went from 268.7 MB to 256.7 MB.
+Total: 11.636600 ms (FindLiveObjects: 0.691400 ms CreateObjectMapping: 0.763900 ms MarkObjects: 7.366600 ms  DeleteObjects: 2.813200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButtonDownListener.cs: 05622a85a5f20c861a0fcd3268264bf0 -> 
+  custom:scripting/monoscript/fileName/RequestCaptureFlow.cs: d72971713b6f34daf0f8c6b3a1b2bfe0 -> 
+  custom:scripting/monoscript/fileName/OverlayPassthrough.cs: 091d8a7abf91addfd08324a4051f5104 -> 
+  custom:scripting/monoscript/fileName/Image.cs: dd116bd88ea81caa3fb33a5e7b0cdc79 -> f32195bbbc1ca9edcb6c8c6185597e40
+  custom:scripting/monoscript/fileName/EnableDepthBuffer.cs: 7fd39fc24a9303e792bfb68bb542dbee -> 
+  custom:scripting/monoscript/fileName/OVROverlaySample.cs: 5d05d2224a12d5ed0501c1b64a2178f1 -> 
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: c142d02d70a129e0533975f7c2f96956 -> 
+  custom:scripting/monoscript/fileName/AttachmentHand.cs: 88975d624f744b8f9cd6e5b867075e0f -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LocomotionController.cs: a36c5a3ba31e770577bd716fb262751d -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsEventInterfaces.cs: 85a9480a177080729caf15c44061b4fb -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: f5cd9d5a43bfefc8f4fec80e6de896a4 -> 
+  custom:scripting/monoscript/fileName/TeleportOrientationHandler.cs: ebe7f172a55164d8e77cf205136a15e9 -> 
+  custom:scripting/monoscript/fileName/HandFadeInAtDistanceFromRealData.cs: ccaa984ef09121dd15f53ff31ccbd31f -> 
+  custom:scripting/monoscript/fileName/InteractionManagerEditor.cs: 3513bbe6b2b46384e4c649bc0ffc284f -> 
+  custom:scripting/monoscript/fileName/ImageData.cs: c512f19a780b6133f1f3b416c63d0231 -> 
+  custom:scripting/monoscript/fileName/HandPoseViewer.cs: eafdb75e54f743c56a842c2f69a57a41 -> 
+  custom:scripting/monoscript/fileName/UiBoolInspector.cs: f2f4856311dc4b072204ccb97f8aab16 -> 
+  custom:scripting/monoscript/fileName/ShootFruit.cs: dec63f5237faf50a801c480f17e897bc -> 
+  custom:scripting/monoscript/fileName/TeleportAimVisualLaser.cs: b4283459f0afd0472e5f3012515e2cb6 -> 
+  custom:scripting/monoscript/fileName/labrary_manager.cs: 88f93ec673711e3ce1db85550f5fb30c -> 
+  custom:scripting/monoscript/fileName/Disable.cs: a1682ccd2340bf7298f4bf7e344d3db8 -> 
+  custom:scripting/monoscript/fileName/Device.cs: ad62f1222adf5933bc1a520de13b8645 -> 8726cf26051bd1b118e5a19691a28e54
+  custom:scripting/monoscript/fileName/DynamicSceneManagerHelper.cs: 5e3445e09b2e5c90a6d1247a12348f2b -> 
+  custom:scripting/monoscript/fileName/KabschSolver.cs: 06cdb91d0d03716b4958aa05368120ce -> 
+  custom:scripting/monoscript/fileName/RingBuffer.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/MLModel.cs: e88b6072eb5ba632d908216fb2d0313a -> 
+  custom:scripting/monoscript/fileName/HandedInputSelector.cs: d00455295d46fd6235c3e941484f10c7 -> 
+  custom:scripting/monoscript/fileName/EditorUtils.cs: c0494a05e702871fc6f358469d54778d -> a5caa48634245734f9c5a18079fb3381
+  custom:scripting/monoscript/fileName/BoneCapsuleTriggerLogic.cs: 327e308d7d7a3029f99b4790ab8de118 -> 
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteractionEditor.cs: fee27e35de0763398abbdaf67b913ee4 -> 
+  custom:scripting/monoscript/fileName/TeleportTargetHandlerNavMesh.cs: 0345ed0f6000c98f2b4b61803345e795 -> 
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: a9d4be556104ff54e7d240529b3e01dc -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoToggle.cs: 2fc630b9f68da2675435e44937157313 -> 
+  custom:scripting/monoscript/fileName/CommentEditor.cs: af910870a02543bf51329dbb23fe337d -> 
+  custom:scripting/monoscript/fileName/ActivityManager.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManager.cs: 07fc9528be1fa8e677632d1149ab16b5 -> 
+  custom:scripting/monoscript/fileName/GrabManager.cs: b24358db8cc2487443eac89a46735be1 -> 
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 2d3e2cd961730ab95f139a49a673bace -> 
+  custom:scripting/monoscript/fileName/CapsuleHandEditor.cs: e5dc04dbbee22385687f1f4550e9cbbd -> 
+  custom:scripting/monoscript/fileName/SimpleResizer.cs: b2197034ec1d1301a22d4e0433cc957a -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AndroidVideoEditorUtil.cs: 830845eb4acae6337b84ad4b2916bddd -> 
+  custom:scripting/monoscript/fileName/scene_manager.cs: 64c51b55c8c1c05e8491f5a7e2f9652c -> 
+  custom:scripting/monoscript/fileName/Interactable.cs: 5a0d41a8e1d954f771e1f4a288d34871 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/OculusSampleFrameworkUtil.cs: 370761112ec10ccd46a479053465efdb -> 
+  custom:scripting/monoscript/fileName/VectorHand.cs: 776f9210ea5a922a53cae32fbdc2df0c -> 
+  custom:scripting/monoscript/fileName/Anchor.cs: 2038d7c9cd3508891eef16e05324f421 -> 
+  custom:scripting/monoscript/fileName/Units.cs: 3cbad8ec4b02325d3bbf992a0580f2c4 -> 37c4edb88e9b56be5f2707f3667ee057
+  custom:scripting/monoscript/fileName/GrabHelper.cs: 99d3f131a2af3e0dd6e1f52606979189 -> 
+  custom:scripting/monoscript/fileName/FingerTipPokeToolView.cs: 9526784e1b6c749fbfcbe467e1ae5b0d -> 
+  custom:scripting/monoscript/fileName/HandModelManager.cs: 6dc2f2b625e043c086f79256fbab482d -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviourEditor.cs: f0f502d0ad87df02b678114215b1ba6e -> 
+  custom:scripting/monoscript/fileName/InteractionToggle.cs: 0636462b0c088f21d2e5b04147c6ff78 -> 
+  custom:scripting/monoscript/fileName/ContactHand.cs: d0475db14978c031124a9d9b05483169 -> 
+  custom:scripting/monoscript/fileName/ExtendedFingerDetector.cs: f1b607b329fcad109fb574ab67e082a8 -> 
+  custom:scripting/monoscript/fileName/TrackSegment.cs: 75de3dfde28a58716c388a64cea683ed -> 
+  custom:scripting/monoscript/fileName/MoviePlayerSampleControls.cs: 3408e2c2db8b98e5f72a802e2a233695 -> 
+  custom:scripting/monoscript/fileName/TeleportAimHandlerParabolic.cs: 64a37ba72089496c5a4d59ea5017e459 -> 
+  custom:scripting/monoscript/fileName/SceneSettings.cs: 5999c3b985f6bf4fb348962e4511c602 -> 
+  custom:scripting/monoscript/fileName/Flashlight.cs: 7186e8109f4bff1ed02cfc258e9b33d6 -> 
+  custom:scripting/monoscript/fileName/DebugUISample.cs: d42b0e12968c1bfa4065fca8e357aa62 -> 
+  custom:scripting/monoscript/fileName/SetMeshBarycentricCoordinates.cs: 14331a1de6d7c07b6375a9b9d358e3b1 -> 
+  custom:scripting/monoscript/fileName/CapsuleHand.cs: c57496f2d0498fd59af21f100aeac8c4 -> 
+  custom:scripting/monoscript/fileName/PassthroughSurface.cs: 5703fda85cf2527bd7651858bfaff9cf -> 
+  custom:scripting/monoscript/fileName/PassthroughBrush.cs: 7f2e0e287726669717617aabbea0690f -> 
+  custom:scripting/monoscript/fileName/Arm.cs: 010ea98d3323a185f2519303e59c455c -> 
+  custom:scripting/monoscript/fileName/DetectorLogicGate.cs: e4d313b25c0f78d1305eeb3caff86d45 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoManager.cs: c11366454472ac9a8a005e2be143c6d5 -> 
+  custom:scripting/monoscript/fileName/TransformPlayer.cs: 7d0b4d53f632eadf238cd4206067a1e1 -> 
+  custom:scripting/monoscript/fileName/BuildAssetPackages.cs: 5389752849757280bf987ddf3cd610af -> 
+  custom:scripting/monoscript/fileName/CustomDebugUI.cs: c6b5519580ed9541aa9f0f0d719e50c0 -> 
+  custom:scripting/monoscript/fileName/EnumEventTableEditor.cs: 0c78fcffb52a19afb9079f5e6b2ab845 -> 
+  custom:scripting/monoscript/fileName/PinchDetector.cs: 75157010cdff3b53c7f31f359a5e85ed -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsPopup.cs: a89d64b367bc2809964ad0e0859e6768 -> 
+  custom:scripting/monoscript/fileName/TrainCarBase.cs: 4a51bcf8d93213adb40eb11766eb48a7 -> 
+  custom:scripting/monoscript/fileName/FingerTipPokeTool.cs: c25be6a1bec07251523e8c173ceae647 -> 
+  custom:scripting/monoscript/fileName/CSharpExtensions.cs: 85106955723467757fce4c5c47b96afc -> 
+  custom:scripting/monoscript/fileName/InteractableToolsCreator.cs: ca0d04537c905769a797087eea12dc58 -> 
+  custom:scripting/monoscript/fileName/IInteractionBehaviour.cs: 89dcda52014e294a8758eb7a738fce6a -> 
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: 76f28e2ddb031571e6ec62b018f65fa8 -> 
+  custom:scripting/monoscript/fileName/PassthroughController.cs: dbd63953bc6a046b82c5bc1100937ff8 -> 
+  custom:scripting/monoscript/fileName/InteractionController.cs: 66b694b52005c04787d1ac695f741e85 -> 
+  custom:scripting/monoscript/fileName/HardContactBone.cs: a08844e10b115675b6908817545c9d6c -> 
+  custom:scripting/monoscript/fileName/TrainCrossingController.cs: 9819c01edd6351d4cae6f4675b79fbac -> 
+  custom:scripting/monoscript/fileName/CharacterCapsule.cs: 1f2f2b54b6121466141bec516d358098 -> 
+  custom:scripting/monoscript/fileName/Connection.cs: 2ee471f900f6cc4109915e5da51dc329 -> 
+  custom:scripting/monoscript/fileName/TrackingMarkerObject.cs: 659c65cf3050a717937089b3657af814 -> 
+  custom:scripting/monoscript/fileName/NoContactBone.cs: dc6a607836bbe37ac63af32e6c7cdae9 -> 
+  custom:scripting/monoscript/fileName/HandAnimationPlayback.cs: 9d8e60f6ecf711c7f127062c031a2bda -> 
+  custom:scripting/monoscript/fileName/DebugUIBuilder.cs: 56e82189a2b33fdf95a843d6d7107852 -> 
+  custom:scripting/monoscript/fileName/VisualFOV.cs: 46b476c283ed3b50035f404aaa011660 -> 
+  custom:scripting/monoscript/fileName/MediaPlayerImageEditor.cs: 2c2e2d2c21d27a9870dda95f7ec269c7 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IGraspedPoseHandler.cs: 36252c95c3484675f11f234b565d7d8b -> 
+  custom:scripting/monoscript/fileName/IXRControllerTrackingProvider.cs: 74e0223fe2a1e34b29a4341e78374fc9 -> 
+  custom:scripting/monoscript/fileName/TeleportPoint.cs: c0cbfcf6f446dbde884f5ac46f6890c6 -> 
+  custom:scripting/monoscript/fileName/BuildValidation.cs: 73732fc82347556a9bf8c64b797d6d49 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FailedDeviceList.cs: fef2af07eb00ca06cb57960ef688bad4 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: 7c3049f481e464c6a9a15dee56c3126f -> 
+  custom:scripting/monoscript/fileName/CustomEditorBase.cs: 382f2cc0f9d39a049218b7b81294ef6f -> 
+  custom:scripting/monoscript/fileName/TeleportOrientationHandlerThumbstick.cs: 59a9c87ed256a88e4c7f982177613513 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyAttribute.cs: 0690a5457a9d84bf3fdbea639e8c4293 -> 
+  custom:scripting/monoscript/fileName/CopyFromLeapCExtensions.cs: 855f10755e2efaa6caaa1c89ac6f9a2d -> 
+  custom:scripting/monoscript/fileName/PassthroughPlayInEditor.cs: 7de688f4131dc9a31354405baa973924 -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProvider.cs: cc05d5cc67f8b16181b73c064d186e4d -> 
+  custom:scripting/monoscript/fileName/TeleportOrientationHandlerHMD.cs: a891f9e0492190596ebb146c1d52876c -> 
+  custom:scripting/monoscript/fileName/HardContactParent.cs: fec151c1b07542f61621f53021ab589e -> 
+  custom:scripting/monoscript/fileName/SceneSampler.cs: f9023a23d5573754e333087132c95733 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CowController.cs: 989088f2a64cd99ec847291e5dae73a4 -> 
+  custom:scripting/monoscript/fileName/DynamicSceneManager.cs: 9cec0aaf23a3a43c61ff2bc719cfefa4 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: e6faf4c1336f494e003337da71e91d11 -> 55f7b0b00c4dac6ffe964f95d7fe1ac4
+  custom:scripting/monoscript/fileName/SnapshotSceneManager.cs: ad0f206f8de14a13619e9fd7beafb21e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 55ce425812446482e623ff2695c94cb2 -> 
+  custom:scripting/monoscript/fileName/ReadonlyHashSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSupportUtil.cs: bfcc1cf50b236c185148264ff3bd65ed -> 
+  custom:scripting/monoscript/fileName/AttachmentPointFlags.cs: 50ba43bc00d8be79acc1806068c7cdc4 -> 
+  custom:scripting/monoscript/fileName/ServerStatus.cs: fd495324ef2afc9af25138d0414a1beb -> 
+  custom:scripting/monoscript/fileName/TouchController.cs: 74267eb3fce88517c0413caaf39cc375 -> 
+  custom:scripting/monoscript/fileName/AnchorEditor.cs: c922163015cea4272b8d24586ed7bea1 -> 
+  custom:scripting/monoscript/fileName/TeleportAimHandlerLaser.cs: c995e3c1078e3a431caf555616d6c1c9 -> 
+  custom:scripting/monoscript/fileName/PanelHMDFollower.cs: d031e4c63725f934e381003ef4d512f5 -> 
+  custom:scripting/monoscript/fileName/FingerDirectionDetector.cs: ac1b81189441907d21ccaaba3ee0c38c -> 
+  custom:scripting/monoscript/fileName/SimpleCapsuleWithStickMovement.cs: 9191bd0ad1d852a8ee9cd31207238c4a -> 
+  custom:scripting/monoscript/fileName/IGraspedMovementHandler.cs: b66376da3246a771f963267200e42cb7 -> 
+  custom:scripting/monoscript/fileName/NoContactParent.cs: f3ae45216fc70e2578ff1f1df9c4b732 -> 
+  custom:scripting/monoscript/fileName/SimpleScript.cs: 454caab0c6c050f29b39d82e1d66d0fa -> 
+  custom:scripting/monoscript/fileName/LeapImageRetrieverEditor.cs: ba8150fa90c4de9a0bba5a6d95240cd6 -> 
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: 2b96bb2079dd7fa5108d981627a28e1e -> 
+  custom:scripting/monoscript/fileName/AppDeeplinkUI.cs: fe1f6ca7fe0957587cf729e6f03391f4 -> 
+  custom:scripting/monoscript/fileName/PostProcessProviderEditor.cs: 2075fc2c8607603c3dbe371df4e61b66 -> 
+  custom:scripting/monoscript/fileName/RayTool.cs: a30d856be1595c34cdf8492e5ab02a45 -> 
+  custom:scripting/monoscript/fileName/OVROverlayCanvasEditor.cs: 4a713474942c2f01c5eaa35f713654db -> 
+  custom:scripting/monoscript/fileName/AugmentedObject.cs: 0c05dea7bf13d66839f5fa6cc2619d29 -> 
+  custom:scripting/monoscript/fileName/TeleportSupport.cs: 61e6cd4a54a1e9608344bb7ccfc8a37d -> 
+  custom:scripting/monoscript/fileName/ObjectManipulator.cs: feedfdb473e61698abd36ea85336da67 -> 
+  custom:scripting/monoscript/fileName/PhysicsUtility.cs: 96d6762544c05528e7c3a54de17d1daf -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.InteractionEngine.Editor: 5a84d07cffa0218df37bcbd3e6b170bb -> 
+  custom:scripting/monoscript/fileName/PhysicsCallbacks.cs: 70bc13e955bcb0f8313b46c4ab2ec1a9 -> 
+  custom:scripting/monoscript/fileName/Pose.cs: 76eed2a39b937f591e93be84ffba2149 -> 
+  custom:scripting/monoscript/fileName/TeleportTransitionInstant.cs: 4cf31bf239fc2b3f5cf92241566d1df8 -> 
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 881db0f9e9b257a8169bfcf1119f57bb -> a4aed7f6582c4d0ce49f4e5ce2ad68c1
+  custom:scripting/monoscript/fileName/ServiceCallbacks.cs: b98cb899d8c2d1dc92eeb30742334f64 -> 
+  custom:scripting/monoscript/fileName/LocomotionTeleport.cs: 4e094e05fe64554b717f0c4e4200b52b -> 
+  custom:scripting/monoscript/fileName/PourDetector.cs: fb191337798f2fe1c12fe378fe6966e9 -> 
+  custom:scripting/monoscript/fileName/InteractableToolsInputRouter.cs: 97191a1cfedf36f14b0406f4e6413589 -> 
+  custom:scripting/monoscript/fileName/IgnoreCollisionsInChildren.cs: 92856c240811d4ab234fea24384be587 -> 
+  custom:scripting/monoscript/fileName/MaxValue.cs: 35a50d8b668ff327a1ed9a9ea69337d4 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviour.cs: f8a3e9f3597ffc16d7b9dde45ba2f830 -> 
+  custom:scripting/monoscript/fileName/InteractionHandEditor.cs: 261de0311508c164283fe0a8015f3b82 -> 
+  custom:scripting/monoscript/fileName/CharacterCameraConstraint.cs: 29e63f24e65aa6fb444c9508f9cd8374 -> 
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 347309a09d56e367b188a6978f75b424 -> 
+  custom:scripting/monoscript/fileName/PlaybackPen.cs: 4a2722926092201d3224f82f18bd964b -> 
+  custom:scripting/monoscript/fileName/SerializableHashSetEditor.cs: 6301d3e6fa42ecd41b5073a0db2135bf -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProduceConsumeBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsProvider.cs: 90f889f2e5dc375770f3709166792ff5 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: d27eb5498e48714a66aece98da065133 -> 
+  custom:scripting/monoscript/fileName/TeleportTransitionBlink.cs: dd794ca0e28e746768ea2047aefd9b39 -> 
+  custom:scripting/monoscript/fileName/Bone.cs: c400bd4975023e6c4040cb74e2042bf9 -> 
+  custom:scripting/monoscript/fileName/StylusTip.cs: c54209cbb89b669844600e18de499503 -> 
+  custom:scripting/monoscript/fileName/LeapTransform.cs: 14bf8a803c8c800112b10551a33ee56f -> 
+  custom:scripting/monoscript/fileName/InteractionVRControllerEditor.cs: 8b44cce0f52dc1d50bf738745395cf94 -> 
+  custom:scripting/monoscript/fileName/PassthroughStyler.cs: 260bd712c02120c2ea0f942d1a305bc8 -> 
+  custom:scripting/monoscript/fileName/MoviePlayerSample.cs: b0e6cb8e587c06dae7deae7a03c57668 -> 
+  custom:scripting/monoscript/fileName/PassthroughProjectionSurface.cs: e5054de0e603875042f8289681cda5c6 -> 
+  custom:scripting/monoscript/fileName/TeleportInputHandler.cs: 557b5f0449fa7f296cc2a9cfd181207b -> 
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: 33fc311abb20b5b0ed8f00e4d86b574e -> 
+  custom:scripting/monoscript/fileName/UiAxis1dInspector.cs: a4a98f97b5ca73e954b3454ecf00da03 -> 
+  custom:scripting/monoscript/fileName/FurnitureSpawner.cs: 91a80eed6c5f1644de9c0e1da8192fe8 -> 
+  custom:scripting/monoscript/fileName/FirebaseEnabler.cs: 8ab3b18fccb449660a959239377cfaf6 -> 
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 5f984ca91cf3609293aecc6bc5641572 -> 
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 46f655df8cb483ac5958307137b1585a -> 
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: a6f78c4fcda1a29a1a1c1baefedba9e7 -> 
+  custom:scripting/monoscript/fileName/handplayaroundtry.cs: 21e45a4ac1a76525b96fd95cc36c4014 -> 
+  custom:scripting/monoscript/fileName/AbstractHoldDetector.cs: a718392dfd22751f3a835b0bec8468da -> 
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: b01021aea19247f14a98ab338907956a -> 
+  custom:scripting/monoscript/fileName/UnifiedPlayback.cs: 1dfdf5d0c5edc588b40cf3f2084fc171 -> 
+  custom:scripting/monoscript/fileName/InteractionXRController.cs: c1b2f90ad78b044e56f0a1d950d201a6 -> 
+  custom:scripting/monoscript/fileName/GrabClassifierHeuristics.cs: c728d8157ee729e13016cf2378fc460e -> 
+  custom:scripting/monoscript/fileName/UltraleapSettings.cs: aeaa2c9ed6ff3ced03a16a5d2e9c2fd7 -> 
+  custom:scripting/monoscript/fileName/Spawnable.cs: 273cd59f8c90c897c5a542734910928d -> 
+  custom:scripting/monoscript/fileName/SimpleInteractionGlow.cs: dae97eb17f7a1bcf6c85fd06fc1e325c -> 
+  custom:scripting/monoscript/fileName/BitConverterNonAlloc.cs: a6a74a204a9f5593c041179223e89d3f -> 
+  custom:scripting/monoscript/fileName/PauseOnInputLoss.cs: 8f6e626ebe54ab71482982202060ae8f -> 
+  custom:scripting/monoscript/fileName/PinchStateModule.cs: e1ab01590b573f0a5dc885eae14faa15 -> 
+  custom:scripting/monoscript/fileName/GrabHelperObject.cs: 194888d542b66c176b83d3bb447109de -> 
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: b626d2270e6ebd5c4311585c18b58d8d -> 
+  custom:scripting/monoscript/fileName/CircularObjectBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: ac02af96215ae3951a3cce9e1a8c6085 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.PhysicalHands: 14f90c30089199324279018d690e007a -> 
+  custom:scripting/monoscript/fileName/SceneReadmeEditor.cs: c385b4cf08e81b862867587c2c945db3 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PalmDirectionDetector.cs: 4799ac49851bda09ab3a3e51ed3c642c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 5c75bc8e07688c6fb6e0ca057d0248ce -> 
+  custom:scripting/monoscript/fileName/HandEnableDisable.cs: 7acfe8a351856950d6dd20f3c65830de -> 
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 6148cfe2627b7708298f301788144139 -> 
+  custom:scripting/monoscript/fileName/MediaPlayerImage.cs: 4adbef5418c626d672ef80e18416d6d2 -> 
+  custom:scripting/monoscript/fileName/ProximityDetector.cs: bedf37f48edf86aff4ae85b3a3606058 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviourEditor.cs: 5df3aad8b720c44c2fec6325c4a22d2b -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProviderEditor.cs: cddb6b5fc8292e8ff103354ddf6ef98b -> 
+  custom:scripting/monoscript/fileName/BuildSamples.cs: 45a147ab0c7d704cb41ab15f143b7a82 -> 
+  custom:scripting/monoscript/fileName/InteractionControllerEditor.cs: 42bb0f0bae7bd39982f42c38df24e25f -> 
+  custom:scripting/monoscript/fileName/DeviceList.cs: c06ad90d9bce7c25dd2e887c0599090c -> 
+  custom:scripting/monoscript/fileName/SingleLayer.cs: cc1c6357dcbb795e8c32425e66ff8897 -> 
+  custom:scripting/monoscript/fileName/SampleDependencyImporter.cs: 4e80419adb5c9ea134d2f34886576360 -> 
+  custom:scripting/monoscript/fileName/LeapC.cs: 199b5482924fc6e5dafbf50dfcafae5c -> 
+  custom:scripting/monoscript/fileName/ContactBoneParent.cs: 3a8373bb397a2baceb5355e2e3bea328 -> 
+  custom:scripting/monoscript/fileName/MyCustomSceneModelLoader.cs: 1bcccd6c320bfb4a8a8478fba581fcd8 -> 
+  custom:scripting/monoscript/fileName/DistanceGrabbable.cs: 14faf4a770eb186679f43d458e3f06ef -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9d1fa5e1bd9dbe7d24474efe1f663272 -> 
+  custom:scripting/monoscript/fileName/TransformHistory.cs: 26832af49495cd5374f96c83bb80989f -> 
+  custom:scripting/monoscript/fileName/LocalizedHaptics.cs: 6682d90b61050695319adcad5e1fa19f -> 
+  custom:scripting/monoscript/fileName/LaserPointer.cs: 96a0032515e819b1aa4cfc86de5301b4 -> 
+  custom:scripting/monoscript/fileName/InteractableTool.cs: 7c8dd0dd22843ea29a1d022e028e0afe -> 
+  custom:scripting/monoscript/fileName/ControllerBoxController.cs: 5a5ea07353d81345fab2fa74978d9c4b -> 
+  custom:scripting/monoscript/fileName/InteractableRegistry.cs: d7cd3d062ad95e3e7b05a39aee8624d4 -> 849ed7f5b11c9db237ef61b01c5a5104
+  custom:scripting/monoscript/fileName/AttachmentHandEnableDisable.cs: ea34776d8c9291b5c63f65339b9fc307 -> 
+  custom:scripting/monoscript/fileName/SlidingWindowThrow.cs: ad4c30111fa96fcd23d4c8d789177a20 -> 
+  custom:scripting/monoscript/fileName/OVROverlayCanvas.cs: 205db75a9e44cdcb105a8a29510eb649 -> 
+  custom:scripting/monoscript/fileName/HandPoseScriptableObject.cs: 8389b4cfd5162c13de2e57b0175f94dc -> 
+  custom:scripting/monoscript/fileName/InteractionManager.cs: cfa43ac53ca23c24a586a39cfce5a3cd -> 
+  custom:scripting/monoscript/fileName/PointMapping.cs: 74a9faa23fa193bf4140350c668cd796 -> 
+  custom:scripting/monoscript/fileName/Hand.cs: ada2a35ec298c35a3ea3b312ea9015f1 -> df1a22b2ca2811118a15a3d9f88c6acf
+  custom:scripting/monoscript/fileName/LeapServiceProviderEditor.cs: 79ad843728814a0953d3abea10bbe38a -> 
+  custom:scripting/monoscript/fileName/CustomPropertyDrawerBase.cs: a8ed9474cc6c04bf7f8cf34ab5b21f10 -> 
+  custom:scripting/monoscript/fileName/FlashlightController.cs: ba315ef31e2046ff3b8c5c7f44fdfc80 -> 
+  custom:scripting/monoscript/fileName/WindmillController.cs: 56d82f975c6f71a687e92ba7acda2939 -> 
+  custom:scripting/monoscript/fileName/DistortTrackingDataToVisuals.cs: 58cb7f3aee5cd402c2db5ec7283af031 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyDrawer.cs: 644e5e4f785b4360cccc20067ff0d5bf -> 
+  custom:scripting/monoscript/fileName/KabschGraspedPose.cs: 5c7692554216dd073ff75c9a97001aeb -> 
+  custom:scripting/monoscript/fileName/CopyFromOtherExtensions.cs: 9dffed86b993e158b9253708b07d43a3 -> 
+  custom:scripting/monoscript/fileName/SelectionCylinder.cs: 55748bdc7ecc337f82392ca5ad9a149c -> 
+  custom:scripting/monoscript/fileName/ButtonController.cs: ed3502853b36c21f429c08809aaecf69 -> 
+  custom:scripting/monoscript/fileName/ContactBoneParentEditor.cs: 6665bc88e4520630f66cbdf8bac4899b -> 
+  custom:scripting/monoscript/fileName/MinMax.cs: fbed239dd9e7c8aad9375e862eb3d542 -> 
+  custom:scripting/monoscript/fileName/GrabbableCrosshair.cs: 10949ff18db97d543e47af6928894bd8 -> 
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 92608fa4a6315cd0786d82205e77b697 -> 
+  custom:scripting/monoscript/fileName/TeleportTargetHandler.cs: 5bb2eaf5ba2435d9877ca173e0cade28 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSet.cs: 0a95a82ccb282739b1a8023bd87e57a1 -> 
+  custom:scripting/monoscript/fileName/Stream.cs: 7c44ecfb7fc58ce3a595ad963d85d6e9 -> 
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 650ab1e81d40126e3edcf737cce646e4 -> 
+  custom:scripting/monoscript/fileName/SimpleResizable.cs: 583428f99d43835bc2fed80fd43d5c3e -> 
+  custom:scripting/monoscript/fileName/NativeVideoPlayer.cs: 4c95bdb4a04ad6f409b363c05e8aa36b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/TeleportOrientationHandler360.cs: ea9759f3a7195d8e81234d9f9ac39cf7 -> 
+  custom:scripting/monoscript/fileName/Cup_collision.cs: 27f40c5f32966fab7f917ae08cc5b1ba -> 
+  custom:scripting/monoscript/fileName/StartMenu.cs: db77554ee435fda06f939ae4944f2a03 -> 
+  custom:scripting/monoscript/fileName/NoContactHand.cs: 154ea625f6eedb37c21dfd926c5b59cb -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviour.cs: 1aea7dbced545e2e8487f2bb86d35c47 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 63ec564c588058369499638dd899e05b -> 
+  custom:scripting/monoscript/fileName/InteractionButtonEditor.cs: 9508dcd4a52fb3a087b4adbccdaa008d -> 
+  custom:scripting/monoscript/fileName/LeapServiceProvider.cs: f7515d904ba4c3f3d9db8f106ae7f99b -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionManager.cs: c1d07d255f4ffa1d2816e36ae5551351 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DisableIf.cs: 40e20462102b9a7128af55a8af73696b -> 
+  custom:scripting/monoscript/fileName/PrefabSceneManager.cs: 336e73bb23de3d83c87bfcb6f6dd710e -> 
+  custom:scripting/monoscript/fileName/TrainCar.cs: c6ff666ca862d7b4403177292215ffea -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 13505d917eab5868c435e0c2986dadfa -> 
+  custom:scripting/monoscript/fileName/TrainLocomotive.cs: b329bf5abfff4fb0d001bef8d7727a48 -> 
+  custom:scripting/monoscript/fileName/StructMarshal.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/VectorUtil.cs: 5f44899122b54240a1719b4ea4660613 -> 
+  custom:scripting/monoscript/fileName/HandUtils.cs: 4d981cb74852a193064363ca4d9069b2 -> 
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: ba2be21a7486d37b1011342977a2e49d -> 
+  custom:scripting/monoscript/fileName/HandDataManager.cs: ea1cce2a1d6451ca79fab6d27ac2b97e -> 
+  custom:scripting/monoscript/fileName/SceneReadmePingEditor.cs: 97109080a50147c1c49ee1ffcf99e4b2 -> 
+  custom:scripting/monoscript/fileName/RespawnFruit2D.cs: fd8a24064f38898cb4685bae55013f88 -> 
+  custom:scripting/monoscript/fileName/HandPose.cs: 7abbb641316c0435bedfe27e33a20d68 -> 60569e1c5f0da1855f16b8d4d9379f86
+  custom:scripting/monoscript/fileName/Pen.cs: 6699938a0fc0f38e8f2bb0465345b1e5 -> 6eab9170261bbd85df09d1ffe39eb3e1
+  custom:scripting/monoscript/fileName/InteractionButton.cs: 3b22208adf5b33bd4ddfb349da418322 -> 
+  custom:scripting/monoscript/fileName/WindmillBladesController.cs: a2097af342d0ad7c58fb8f33771f3aaf -> 
+  custom:scripting/monoscript/fileName/Finger.cs: ea602497b27ee7b1fb82add14bbedf65 -> 47c63a23d4568c72c9e2be18ba728ebd
+  custom:scripting/monoscript/fileName/AnimationController.cs: be29773a7bd4850d65244c939b1d7fbf -> 
+  custom:scripting/monoscript/fileName/EnableUnpremultipliedAlpha.cs: f4abe91af5f913b539cc206b26830e87 -> 
+  custom:scripting/monoscript/fileName/RespawnFruit.cs: ab04836fe2812f5943c891cd54ce3f7c -> 
+  custom:scripting/monoscript/fileName/collision.cs: 6c0e9a3121ad1daa4fda2cd07be2f8cb -> 
+  custom:scripting/monoscript/fileName/TransformExtensions.cs: 33de45c9a4e7d28d645476b87b861946 -> 86b409a439be434295129394136400b6
+  custom:scripting/monoscript/fileName/UiAxis2dInspector.cs: df7253b0574492109ccd34ee2b835137 -> 
+  custom:scripting/monoscript/fileName/SceneReadmePing.cs: 179b0a9117840e16cf552e5c33414c9f -> 
+  custom:scripting/monoscript/fileName/TeleportTargetHandlerPhysical.cs: 7972844f3d8ef49430e6333c876e0e1a -> 
+  custom:scripting/monoscript/fileName/HandPoseValidator.cs: 372fe3f32029580835d71f4e57b03502 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 5640963252ce70910e726415f869ced6 -> 
+  custom:scripting/monoscript/fileName/Swizzle.cs: e0dc594f26c1eef6eba2bf205bc6aed0 -> 
+  custom:scripting/monoscript/fileName/ultraleap.cs: 7fecbedac4e6d87bf0eea22f36a44fc9 -> 
+  custom:scripting/monoscript/fileName/HandMeshUI.cs: 93793d4e17e522d7b68a18f6dd453b8d -> 
+  custom:scripting/monoscript/fileName/TeleportTargetHandlerNode.cs: a971927c9106da615834e1c76c9957ac -> 
+  custom:scripting/monoscript/fileName/DropdownSample.cs: 0a92251794e5f10400149f96c3c59e5d -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEventsEditor.cs: 8773215a67eb048b7faa0b2c4fb3b674 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 6333d15e7e6fdc49993450371b2e4e11 -> cb3d93fd3c3e2e849fbe3d6042d80b7e
+  custom:scripting/monoscript/fileName/HandBinderData.cs: 599f9731fc80d77d00442aa8c92d950b -> 
+  custom:scripting/monoscript/fileName/AnalyticsUI.cs: 331ebc72c0bbdc836ec4e55eed441762 -> 
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: 2663459c266363641981c7d17b698d7f -> 
+  custom:scripting/monoscript/fileName/SPPquad.cs: ff2c0e1eb4757e61a33f047758badd7c -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/BouncingBallMgr.cs: 6c66f666fef7e76da21741a905718487 -> 
+  custom:scripting/monoscript/fileName/AndroidServiceBinder.cs: 9d36ba182618b43a5439b3b89275846a -> 
+  custom:scripting/monoscript/fileName/SingleLayerEditor.cs: a841c4cd968a965dabf7d0e26e745bd7 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.InteractionEngine: 526b8e9899977b7e6c6136d949a7c946 -> 
+  custom:scripting/monoscript/fileName/manager_script.cs: a04985d7484bad429a499f02a4cc80b9 -> 
+  custom:scripting/monoscript/fileName/HandTrackingHintManager.cs: a74dc97178c531c776c1eb534d043fb5 -> 
+  custom:scripting/monoscript/fileName/SoftContactParent.cs: 03d3e4282b6baf2ff0500b48d6c29d07 -> 
+  custom:scripting/monoscript/fileName/ShowArm.cs: a8605e01a31a430026828d01e2c29895 -> 
+  custom:scripting/monoscript/fileName/BrushController.cs: 7e2b2e254b454b0ee1e9006446f52adc -> 
+  custom:scripting/monoscript/fileName/LeapImageRetriever.cs: ea63d578af3c2ee9c95dfdd8ca8a7d5f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/HandsActiveChecker.cs: 65bed6d5638d35131b6e8a35e3c83caa -> 
+  custom:scripting/monoscript/fileName/TransformRecorder.cs: 159538c210cb3fe250a07bd1335ad2cc -> 
+  custom:scripting/monoscript/fileName/IThrowHandler.cs: d9c31609fae492ad77b553a571984249 -> 
+  custom:scripting/monoscript/fileName/BreakFruit.cs: a505628d2740e87b17c6296598bc474c -> 
+  custom:scripting/monoscript/fileName/ChatController.cs: 876d5ccae6e345dd5d9450eb0a748f16 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsButton.cs: 6bab7047b34117757085ce24fb294e1f -> 
+  custom:scripting/monoscript/fileName/KinematicGraspedMovement.cs: 3dd2c2ee31d1ab1e7f63423531043908 -> 
+  custom:scripting/monoscript/fileName/HandBinderAutoBinder.cs: 5483a39b8c9580b9fa6233b1e7492c51 -> 
+  custom:scripting/monoscript/fileName/TeleportTransition.cs: 6d3953dbfb9e65c2d14e59b9db5c00ad -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionController.cs: aa2c3c8d855547a16403266674efc32a -> 
+  custom:scripting/monoscript/fileName/InspectorName.cs: 388bc944668caf452ed5170aa12ad1b5 -> 
+  custom:scripting/monoscript/fileName/DistanceGrabberSample.cs: 3e08d6589986b5a3428f769a64c54596 -> 
+  custom:scripting/monoscript/fileName/SimpleAnchorFeedback.cs: c8977b26e238f08ff753dce2a8c39f0b -> 
+  custom:scripting/monoscript/fileName/Comment.cs: 8fcd09e46ac3ab712fde4875847c5a08 -> 
+  custom:scripting/monoscript/fileName/TeleType.cs: 31fa97821c4c70f157ec81d507aa6b62 -> 
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 32220b148620e52aa81c13a114862bf4 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettings.cs: 83d4de6aad85a0ca963bfbb594d9ca98 -> 
+  custom:scripting/monoscript/fileName/PostProcessProvider.cs: 6abf6d1024a77e598c63d69824659da3 -> 
+  custom:scripting/monoscript/fileName/SceneReadme.cs: 8d693ab2a90c4ce951a6a99d512e7de0 -> 
+  custom:scripting/monoscript/fileName/StartCrashlytics.cs: 611449b7ddb4edeb092edd8a3061bdeb -> 
+  custom:scripting/monoscript/fileName/GrabBall.cs: 267bbd0d1837de34ecac50e7a4156816 -> 
+  custom:scripting/monoscript/fileName/LocomotionSampleSupport.cs: 17208abffe48f69b357d0b03efbc0af9 -> 
+  custom:scripting/monoscript/fileName/ColorGrabbable.cs: e35e72b4f811db1dacf8fc1a3dd599ee -> 
+  custom:scripting/monoscript/fileName/Config.cs: 6db961422a9eb4ebb513fcaebf633aea -> 
+  custom:scripting/monoscript/fileName/PrefabCreateMenu.cs: 824eef5039ecb1c3a2ba97f088b746a2 -> 
+  custom:scripting/monoscript/fileName/ContactUtils.cs: 0e2ea456c5d4038e2aa93330b7e5da75 -> 
+  custom:scripting/monoscript/fileName/HandBinder.cs: 18fbe7065591124648e21b51b465efe8 -> 
+  custom:scripting/monoscript/fileName/MemoryManager.cs: 2338971ab50b15cd7d4fd5181ba63ee3 -> 
+  custom:scripting/monoscript/fileName/HandModel.cs: 1ff722b1cfc7e6d9591ae9679ce8fd35 -> 
+  custom:scripting/monoscript/fileName/Extensions.cs: 279e2c93b0e755f09b9bf7d2ea2dd69d -> 
+  custom:scripting/monoscript/fileName/hand_tracking_preprocessing.cs: aaf678980477486939c576d3bce5e76c -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManager.cs: 893866cedffd4c3b67e5495a3cd9bb46 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.Hands: a8c3064f475fb483f179e061bc6f7bf5 -> 
+  custom:scripting/monoscript/fileName/AnchorGroup.cs: e2bae576539b2ef394174db04dcd4130 -> 
+  custom:scripting/monoscript/fileName/GrabBallEditor.cs: ccde7c6cf91899ce298c31769d7bf45f -> 
+  custom:scripting/monoscript/fileName/SoftContactHand.cs: 2ba873edbe9b995b33341189dd7fbeed -> 
+  custom:scripting/monoscript/fileName/ColliderUtil.cs: 17144c2a6566a88926d8ccc332a57c4f -> 
+  custom:scripting/monoscript/fileName/UiSceneMenu.cs: 166c6ceade07cf45624cefccf6ba25c0 -> 
+  custom:scripting/monoscript/fileName/InteractionSliderEditor.cs: 4aa8df0b8da346b432b73397f03eb23f -> 
+  custom:scripting/monoscript/fileName/TeleportInputHandlerHMD.cs: b1e33e28246db3cdd17e54cd6f634281 -> 
+  custom:scripting/monoscript/fileName/InteractionSlider.cs: 460370bbf89b1a0cf86a84423ba60003 -> 
+  custom:scripting/monoscript/fileName/Frame.cs: ba75f25d179d1e97e330c8bc437b6b99 -> 
+  custom:scripting/monoscript/fileName/HeuristicGrabClassifier.cs: 8c3470083967b58bde5b5f04c65a2488 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 1b4f61c17e4b7283c3ac351aacff9d26 -> 
+  custom:scripting/monoscript/fileName/SampleUI.cs: 74cb6c225d36bad1f4c008784a614079 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManagerEditor.cs: 7d8d774a38004b46678ae5c3f64b23b4 -> 
+  custom:scripting/monoscript/fileName/HandModelManagerEditor.cs: 531bcf82587f3a804f24bfd900dba9b0 -> 
+  custom:scripting/monoscript/fileName/AnchorUIManager.cs: 540da9ed6e3ebe5c26326a774f3861a1 -> 
+  custom:scripting/monoscript/fileName/BouncingBallLogic.cs: 11beb433e40342c76917d53300ffd3c4 -> 
+  custom:scripting/monoscript/fileName/SpatialAnchorLoader.cs: 673170ac3360fa2822b827aab61cfdc0 -> 
+  custom:scripting/monoscript/fileName/InteractionHand.cs: 3f387b41196ebaf0d27a8f1defcf91bc -> 
+  custom:scripting/monoscript/fileName/Events.cs: 4091a417928dbcde261d4f1fcb6298da -> 5e6fd182c984e3c981a7ddda9fb543ef
+  custom:scripting/monoscript/fileName/HandModelBase.cs: f3563b9f4768c1c2762ba30ef0fba474 -> 
+  custom:scripting/monoscript/fileName/InteractableToolView.cs: e92807c20f3b46cf2bf01b937fe31dbc -> 
+  custom:scripting/monoscript/fileName/EditTimeOnly.cs: 50fb8615f179fadd12441279258a2f5c -> 
+  custom:scripting/monoscript/fileName/Cube.cs: 1e2bad7c218970a055fec33866548983 -> 
+  custom:scripting/monoscript/fileName/MinValue.cs: 73281ad50196c4ba622966a87dd64c73 -> 
+  custom:scripting/monoscript/fileName/SceneManagerHelper.cs: 3938a89360ae9d5565df0db1e300df9a -> 
+  custom:scripting/monoscript/fileName/HandTransitionBehavior.cs: 9c22934c1a54dd0f36bf8466954458fd -> 
+  custom:scripting/monoscript/fileName/RayToolView.cs: cc9c11d7df11259e9d2b80eb77257e66 -> 
+  custom:scripting/monoscript/fileName/NonKinematicGraspedMovement.cs: 4c583a8a6fcd49f0a84fb63cc3eea3b7 -> 
+  custom:scripting/monoscript/fileName/ContactBone.cs: 709d8ecfbd22f5ebbcaaf5f2ebb3bd81 -> 
+  custom:scripting/monoscript/fileName/ReplayHandMovementData.cs: bb0440aaf165cb3e4a922dd71d183049 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 34b6be4e23ce86dc89786916c5983296 -> 
+  custom:scripting/monoscript/fileName/AttachmentHands.cs: ae271fe6441be6a41303c68ecdc5f61a -> 
+  custom:scripting/monoscript/fileName/HandPoseRecorder.cs: 0513a94cfadea4a022c6f5cef0dc2d0d -> 
+  custom:scripting/monoscript/fileName/HandBinderEditor.cs: 2c56f305bc31583d5134f9b6dfc09b39 -> 
+  custom:scripting/monoscript/fileName/TeleportTransitionWarpInspector.cs: d3a9637d347fc51cd33e745266e3eb23 -> 
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 3f1709cfb2cc628169113a35b5e9be3f -> 
+  custom:scripting/monoscript/fileName/HandsManager.cs: c1b2180599f7f2ac3ede107712e5bfcb -> 
+  custom:scripting/monoscript/fileName/FingerModel.cs: bd5efcee60404c7c25b94519726efed0 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: e468de4f24baf1f1698c588037629f42 -> 7f7033feb07c3327af57f8390eef395e
+  custom:scripting/monoscript/fileName/HandPoseEditorScripts.cs: df5d29132a5f952b23fdd2cc02efac5f -> 
+  custom:scripting/monoscript/fileName/DistortionData.cs: 7b00a94fc06e3d65689e0e1132c45f25 -> 
+  custom:scripting/monoscript/fileName/TestHandFactory.cs: 248a6b0a9bf7938e3cebf4c763f81dc1 -> 
+  custom:scripting/monoscript/fileName/Lamp.cs: 1a3ba4f5afc57030407ffd790cbecc2e -> 
+  custom:scripting/monoscript/fileName/DistanceGrabber.cs: 3d95c1deb9ba27e6807aa8db2eea8d33 -> 
+  custom:scripting/monoscript/fileName/SimpleFacingCameraCallbacks.cs: 5196a9907f73fd72ed44537d54cea46c -> 
+  custom:scripting/monoscript/fileName/AttachmentHandsEditor.cs: 869e454a27226203e410d023a713b156 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.PhysicalHands.Editor: 7d10d5f8485634efb36f744d6d7212b3 -> 
+  custom:scripting/monoscript/fileName/HideInteractionHandWhenControllerMoving.cs: 6bff029c8e0ecdc37d7e102b05ebbce9 -> 
+  custom:scripting/monoscript/fileName/ButtonTriggerZone.cs: 1cb73adfdc599fa764b60f3ddc5e6eb3 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.Core: a8c752cf4de79a342487819ec8c69981 -> 
+  custom:scripting/monoscript/fileName/HandMeshMask.cs: 1364a3f8e9d49f57a2f7d75303a13410 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Detector.cs: 1635a550df25c976bfa1f237b32d8d7b -> 
+  custom:scripting/monoscript/fileName/ContactParent.cs: 6ee38fd0a3849d09829602d741fd0c0e -> 
+  custom:scripting/monoscript/fileName/HardContactHand.cs: 237038d8fc4b54958ec714e86c3cc339 -> 
+  custom:scripting/monoscript/fileName/CollisionHandler.cs: 6c959044ad99b97dd12f1192f7be60dc -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEvents.cs: 5b89fdee731c59dd70d84992f9a924fc -> 
+  custom:scripting/monoscript/fileName/VolumeAndPlaneSwitcher.cs: 392e54960e511524ad1aa131ec2c5b4d -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.Hands.Editor: 1f3253241ac557eaa9ddc4cd8e833060 -> 
+  custom:scripting/monoscript/fileName/HandTrackingSourceUtility.cs: b1eb311a4cef4a2e4740d5c667af2c18 -> 
+  custom:scripting/precompiled-assembly-types:Ultraleap.Tracking.Core.Editor: 4993bbd3443dac186e841e3755c37ea4 -> 
+  custom:scripting/monoscript/fileName/HandPoseDetector.cs: e44e26702a06dc03232507824d74419e -> 
+  custom:scripting/monoscript/fileName/TrainTrack.cs: 59023bdfdc265f261fb53907e98a7c64 -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManagerEditor.cs: 2776be56cde9afc913454681fbcbb023 -> 
+  custom:scripting/monoscript/fileName/QuitOnEsc.cs: da5e950f1cbe6cc5c34b132df6a55317 -> 
+  custom:scripting/monoscript/fileName/TrackingMarker.cs: c6632c064030b5b0b5d4656256d8969e -> 
+  custom:scripting/monoscript/fileName/GrabObject.cs: 835fe865ee799aa6db71b6bd3978c69a -> 
+  custom:scripting/monoscript/fileName/SelectivePassthroughExperience.cs: fbecefd2675919f900eaca3d2342e302 -> 
+  custom:scripting/monoscript/fileName/ColliderZone.cs: bdffc986a0b33693b3a046345b4733fb -> 
+  custom:scripting/monoscript/fileName/UiVectorInspector.cs: 9325bf3fc069e527baece3dc343bea66 -> 
+  custom:scripting/monoscript/fileName/FailedDevice.cs: 8df4bf9b9bc6c6361efd09f4ed24958c -> 
+  custom:scripting/monoscript/fileName/TrainButtonVisualController.cs: 4586a4e62e70b775a408acde9edb0242 -> 
+  custom:scripting/monoscript/fileName/TeleportTransitionWarp.cs: 803a1e326da05d6691b1087a2e8a789b -> 
+  custom:scripting/monoscript/fileName/DebugHand.cs: f3b6ab0a01fccc9b12a2602438de860a -> 
+  custom:scripting/monoscript/fileName/SmoothedFloat.cs: 8b6bbc9ea5f5c41aee6eeb46a3ca0f9f -> 
+  custom:scripting/monoscript/fileName/IgnorePhysicalHands.cs: f0ac677fa5242f194ee9ce37738358fb -> 
+  custom:scripting/monoscript/fileName/TeleportDestination.cs: 98142328ebe6dacb75b30238ecd843df -> 
+  custom:scripting/monoscript/fileName/MetadataUtil.cs: 5915b92c07fc932b12b3ca8ac6b8deaa -> 
+  custom:scripting/monoscript/fileName/SoftContactBone.cs: d2341bc00e1d4366913eae85dfb20592 -> 
+  custom:scripting/monoscript/fileName/DefaultXRNodeTrackingProvider.cs: e2fdf2db3694c1956a8f778d1030f95e -> 
+  custom:scripting/monoscript/fileName/AttachmentPointBehaviour.cs: 844a181cd62797aa4645240579f62cc9 -> 
+  custom:scripting/monoscript/fileName/TeleportInputHandlerTouch.cs: 128fa3d082b5e8492aed882b43a4e4d0 -> 
+  custom:scripting/monoscript/fileName/BasicSceneManager.cs: 083d406dffe81af28d64780a25d7485f -> 
+  custom:scripting/monoscript/fileName/OnEditorChange.cs: 40a4c0641793c630c7b75aa8751a91d5 -> 
+  custom:scripting/monoscript/fileName/IController.cs: f94c9a4da1c3ff42c5c0f387c1f0ed29 -> 503971aee916915c920068bae8831d09
+  custom:scripting/monoscript/fileName/Pool.cs: 0c503405c026414ee604042b00a39416 -> 
+  custom:scripting/monoscript/fileName/EnumFlags.cs: 4f08224f32f17c8cff04f283e02029ea -> 
+  custom:scripting/monoscript/fileName/UiDeviceInspector.cs: ece2757f58861ef98e3b593b9170d774 -> 
+  custom:scripting/monoscript/fileName/TeleportAimHandler.cs: 4a6d1ed3c8478981982756e603aaa959 -> 
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteraction.cs: 5308bae0152c297b273fbebd0d87d98d -> 
+  custom:scripting/monoscript/fileName/LeapProvider.cs: faa937163e43a6fd3e65985c65dbb1b7 -> 
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 17cc87e0529ac71d909a946afb47a274 -> 
+  custom:scripting/monoscript/fileName/EnumEventTable.cs: 413231cd304a979bfc82cc42c3abcdcb -> 
+  custom:scripting/monoscript/fileName/PhysExts.cs: 37ce656c727188ee2127ddb56eafea2d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 507.450420 seconds.
+  path: Assets/test/ultraleap-handtrack.prefab
+  artifactKey: Guid(3a05745894bac1041851ec9c9e620e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test/ultraleap-handtrack.prefab using Guid(3a05745894bac1041851ec9c9e620e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55b6eb7de85ffba04a263c75e367600') in 0.004125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.339 seconds
+Refreshing native plugins compatible for Editor in 23.61 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.647 seconds
+Domain Reload Profiling: 3975ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (743ms)
+		LoadAssemblies (776ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (12ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (54ms)
+	FinalizeReload (2648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (353ms)
+			ProcessInitializeOnLoadAttributes (857ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 97.32 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 6343 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (11.9 MB). Loaded Objects now: 6925.
+Memory consumption went from 232.7 MB to 220.7 MB.
+Total: 23.429700 ms (FindLiveObjects: 1.241000 ms CreateObjectMapping: 1.969500 ms MarkObjects: 16.417500 ms  DeleteObjects: 3.798400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Image.cs: dd116bd88ea81caa3fb33a5e7b0cdc79 -> f32195bbbc1ca9edcb6c8c6185597e40
+  custom:scripting/monoscript/fileName/EnableDepthBuffer.cs: 7fd39fc24a9303e792bfb68bb542dbee -> 
+  custom:scripting/monoscript/fileName/AttachmentHand.cs: 88975d624f744b8f9cd6e5b867075e0f -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsEventInterfaces.cs: 85a9480a177080729caf15c44061b4fb -> 
+  custom:scripting/monoscript/fileName/HandFadeInAtDistanceFromRealData.cs: ccaa984ef09121dd15f53ff31ccbd31f -> 
+  custom:scripting/monoscript/fileName/InteractionManagerEditor.cs: 3513bbe6b2b46384e4c649bc0ffc284f -> 
+  custom:scripting/monoscript/fileName/ImageData.cs: c512f19a780b6133f1f3b416c63d0231 -> 
+  custom:scripting/monoscript/fileName/HandPoseViewer.cs: eafdb75e54f743c56a842c2f69a57a41 -> 
+  custom:scripting/monoscript/fileName/Disable.cs: a1682ccd2340bf7298f4bf7e344d3db8 -> 
+  custom:scripting/monoscript/fileName/Device.cs: ad62f1222adf5933bc1a520de13b8645 -> 8726cf26051bd1b118e5a19691a28e54
+  custom:scripting/monoscript/fileName/KabschSolver.cs: 06cdb91d0d03716b4958aa05368120ce -> 
+  custom:scripting/monoscript/fileName/RingBuffer.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/MLModel.cs: e88b6072eb5ba632d908216fb2d0313a -> 
+  custom:scripting/monoscript/fileName/EditorUtils.cs: c0494a05e702871fc6f358469d54778d -> a5caa48634245734f9c5a18079fb3381
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteractionEditor.cs: fee27e35de0763398abbdaf67b913ee4 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoToggle.cs: 2fc630b9f68da2675435e44937157313 -> 
+  custom:scripting/monoscript/fileName/CommentEditor.cs: af910870a02543bf51329dbb23fe337d -> 
+  custom:scripting/monoscript/fileName/ActivityManager.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManager.cs: 07fc9528be1fa8e677632d1149ab16b5 -> 
+  custom:scripting/monoscript/fileName/CapsuleHandEditor.cs: e5dc04dbbee22385687f1f4550e9cbbd -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VectorHand.cs: 776f9210ea5a922a53cae32fbdc2df0c -> 
+  custom:scripting/monoscript/fileName/Anchor.cs: 2038d7c9cd3508891eef16e05324f421 -> 53e203cc42456abeae69f3e171778a05
+  custom:scripting/monoscript/fileName/Units.cs: 3cbad8ec4b02325d3bbf992a0580f2c4 -> 37c4edb88e9b56be5f2707f3667ee057
+  custom:scripting/monoscript/fileName/GrabHelper.cs: 99d3f131a2af3e0dd6e1f52606979189 -> 
+  custom:scripting/monoscript/fileName/HandModelManager.cs: 6dc2f2b625e043c086f79256fbab482d -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviourEditor.cs: f0f502d0ad87df02b678114215b1ba6e -> 
+  custom:scripting/monoscript/fileName/InteractionToggle.cs: 0636462b0c088f21d2e5b04147c6ff78 -> 
+  custom:scripting/monoscript/fileName/ContactHand.cs: d0475db14978c031124a9d9b05483169 -> 
+  custom:scripting/monoscript/fileName/ExtendedFingerDetector.cs: f1b607b329fcad109fb574ab67e082a8 -> 
+  custom:scripting/monoscript/fileName/CapsuleHand.cs: c57496f2d0498fd59af21f100aeac8c4 -> 
+  custom:scripting/monoscript/fileName/Arm.cs: 010ea98d3323a185f2519303e59c455c -> 
+  custom:scripting/monoscript/fileName/DetectorLogicGate.cs: e4d313b25c0f78d1305eeb3caff86d45 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoManager.cs: c11366454472ac9a8a005e2be143c6d5 -> 
+  custom:scripting/monoscript/fileName/EnumEventTableEditor.cs: 0c78fcffb52a19afb9079f5e6b2ab845 -> 
+  custom:scripting/monoscript/fileName/PinchDetector.cs: 75157010cdff3b53c7f31f359a5e85ed -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsPopup.cs: a89d64b367bc2809964ad0e0859e6768 -> 
+  custom:scripting/monoscript/fileName/CSharpExtensions.cs: 85106955723467757fce4c5c47b96afc -> 
+  custom:scripting/monoscript/fileName/IInteractionBehaviour.cs: 89dcda52014e294a8758eb7a738fce6a -> 
+  custom:scripting/monoscript/fileName/InteractionController.cs: 66b694b52005c04787d1ac695f741e85 -> 
+  custom:scripting/monoscript/fileName/HardContactBone.cs: a08844e10b115675b6908817545c9d6c -> 
+  custom:scripting/monoscript/fileName/Connection.cs: 2ee471f900f6cc4109915e5da51dc329 -> 
+  custom:scripting/monoscript/fileName/TrackingMarkerObject.cs: 659c65cf3050a717937089b3657af814 -> 
+  custom:scripting/monoscript/fileName/NoContactBone.cs: dc6a607836bbe37ac63af32e6c7cdae9 -> 
+  custom:scripting/monoscript/fileName/VisualFOV.cs: 46b476c283ed3b50035f404aaa011660 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IGraspedPoseHandler.cs: 36252c95c3484675f11f234b565d7d8b -> 
+  custom:scripting/monoscript/fileName/IXRControllerTrackingProvider.cs: 74e0223fe2a1e34b29a4341e78374fc9 -> 
+  custom:scripting/monoscript/fileName/BuildValidation.cs: 73732fc82347556a9bf8c64b797d6d49 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FailedDeviceList.cs: fef2af07eb00ca06cb57960ef688bad4 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyAttribute.cs: 0690a5457a9d84bf3fdbea639e8c4293 -> 
+  custom:scripting/monoscript/fileName/CopyFromLeapCExtensions.cs: 855f10755e2efaa6caaa1c89ac6f9a2d -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProvider.cs: cc05d5cc67f8b16181b73c064d186e4d -> 
+  custom:scripting/monoscript/fileName/HardContactParent.cs: fec151c1b07542f61621f53021ab589e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: e6faf4c1336f494e003337da71e91d11 -> 55f7b0b00c4dac6ffe964f95d7fe1ac4
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ReadonlyHashSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSupportUtil.cs: bfcc1cf50b236c185148264ff3bd65ed -> 
+  custom:scripting/monoscript/fileName/AttachmentPointFlags.cs: 50ba43bc00d8be79acc1806068c7cdc4 -> 
+  custom:scripting/monoscript/fileName/ServerStatus.cs: fd495324ef2afc9af25138d0414a1beb -> 
+  custom:scripting/monoscript/fileName/AnchorEditor.cs: c922163015cea4272b8d24586ed7bea1 -> 
+  custom:scripting/monoscript/fileName/FingerDirectionDetector.cs: ac1b81189441907d21ccaaba3ee0c38c -> 
+  custom:scripting/monoscript/fileName/IGraspedMovementHandler.cs: b66376da3246a771f963267200e42cb7 -> 
+  custom:scripting/monoscript/fileName/NoContactParent.cs: f3ae45216fc70e2578ff1f1df9c4b732 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetrieverEditor.cs: ba8150fa90c4de9a0bba5a6d95240cd6 -> 
+  custom:scripting/monoscript/fileName/PostProcessProviderEditor.cs: 2075fc2c8607603c3dbe371df4e61b66 -> 
+  custom:scripting/monoscript/fileName/PhysicsUtility.cs: 96d6762544c05528e7c3a54de17d1daf -> 
+  custom:scripting/monoscript/fileName/PhysicsCallbacks.cs: 70bc13e955bcb0f8313b46c4ab2ec1a9 -> 
+  custom:scripting/monoscript/fileName/Pose.cs: 76eed2a39b937f591e93be84ffba2149 -> 61b8ae9a3937d01eeb909f0b933fcf0b
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 881db0f9e9b257a8169bfcf1119f57bb -> a4aed7f6582c4d0ce49f4e5ce2ad68c1
+  custom:scripting/monoscript/fileName/ServiceCallbacks.cs: b98cb899d8c2d1dc92eeb30742334f64 -> 
+  custom:scripting/monoscript/fileName/IgnoreCollisionsInChildren.cs: 92856c240811d4ab234fea24384be587 -> 
+  custom:scripting/monoscript/fileName/MaxValue.cs: 35a50d8b668ff327a1ed9a9ea69337d4 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviour.cs: f8a3e9f3597ffc16d7b9dde45ba2f830 -> 
+  custom:scripting/monoscript/fileName/InteractionHandEditor.cs: 261de0311508c164283fe0a8015f3b82 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSetEditor.cs: 6301d3e6fa42ecd41b5073a0db2135bf -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProduceConsumeBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsProvider.cs: 90f889f2e5dc375770f3709166792ff5 -> 
+  custom:scripting/monoscript/fileName/Bone.cs: c400bd4975023e6c4040cb74e2042bf9 -> 
+  custom:scripting/monoscript/fileName/LeapTransform.cs: 14bf8a803c8c800112b10551a33ee56f -> 
+  custom:scripting/monoscript/fileName/InteractionVRControllerEditor.cs: 8b44cce0f52dc1d50bf738745395cf94 -> 
+  custom:scripting/monoscript/fileName/AbstractHoldDetector.cs: a718392dfd22751f3a835b0bec8468da -> 
+  custom:scripting/monoscript/fileName/InteractionXRController.cs: c1b2f90ad78b044e56f0a1d950d201a6 -> 
+  custom:scripting/monoscript/fileName/GrabClassifierHeuristics.cs: c728d8157ee729e13016cf2378fc460e -> 
+  custom:scripting/monoscript/fileName/UltraleapSettings.cs: aeaa2c9ed6ff3ced03a16a5d2e9c2fd7 -> 
+  custom:scripting/monoscript/fileName/SimpleInteractionGlow.cs: dae97eb17f7a1bcf6c85fd06fc1e325c -> 
+  custom:scripting/monoscript/fileName/BitConverterNonAlloc.cs: a6a74a204a9f5593c041179223e89d3f -> 
+  custom:scripting/monoscript/fileName/GrabHelperObject.cs: 194888d542b66c176b83d3bb447109de -> 
+  custom:scripting/monoscript/fileName/CircularObjectBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SceneReadmeEditor.cs: c385b4cf08e81b862867587c2c945db3 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PalmDirectionDetector.cs: 4799ac49851bda09ab3a3e51ed3c642c -> 
+  custom:scripting/monoscript/fileName/HandEnableDisable.cs: 7acfe8a351856950d6dd20f3c65830de -> 
+  custom:scripting/monoscript/fileName/ProximityDetector.cs: bedf37f48edf86aff4ae85b3a3606058 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviourEditor.cs: 5df3aad8b720c44c2fec6325c4a22d2b -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProviderEditor.cs: cddb6b5fc8292e8ff103354ddf6ef98b -> 
+  custom:scripting/monoscript/fileName/InteractionControllerEditor.cs: 42bb0f0bae7bd39982f42c38df24e25f -> 
+  custom:scripting/monoscript/fileName/DeviceList.cs: c06ad90d9bce7c25dd2e887c0599090c -> 
+  custom:scripting/monoscript/fileName/SingleLayer.cs: cc1c6357dcbb795e8c32425e66ff8897 -> 
+  custom:scripting/monoscript/fileName/SampleDependencyImporter.cs: 4e80419adb5c9ea134d2f34886576360 -> 
+  custom:scripting/monoscript/fileName/LeapC.cs: 199b5482924fc6e5dafbf50dfcafae5c -> 
+  custom:scripting/monoscript/fileName/ContactBoneParent.cs: 3a8373bb397a2baceb5355e2e3bea328 -> 
+  custom:scripting/monoscript/fileName/TransformHistory.cs: 26832af49495cd5374f96c83bb80989f -> 
+  custom:scripting/monoscript/fileName/AttachmentHandEnableDisable.cs: ea34776d8c9291b5c63f65339b9fc307 -> 
+  custom:scripting/monoscript/fileName/SlidingWindowThrow.cs: ad4c30111fa96fcd23d4c8d789177a20 -> 
+  custom:scripting/monoscript/fileName/HandPoseScriptableObject.cs: 8389b4cfd5162c13de2e57b0175f94dc -> 
+  custom:scripting/monoscript/fileName/InteractionManager.cs: cfa43ac53ca23c24a586a39cfce5a3cd -> 
+  custom:scripting/monoscript/fileName/PointMapping.cs: 74a9faa23fa193bf4140350c668cd796 -> 
+  custom:scripting/monoscript/fileName/Hand.cs: ada2a35ec298c35a3ea3b312ea9015f1 -> 93aaff1e58f2682a7eddebf5f692a11e
+  custom:scripting/monoscript/fileName/LeapServiceProviderEditor.cs: 79ad843728814a0953d3abea10bbe38a -> 
+  custom:scripting/monoscript/fileName/CustomPropertyDrawerBase.cs: a8ed9474cc6c04bf7f8cf34ab5b21f10 -> 
+  custom:scripting/monoscript/fileName/DistortTrackingDataToVisuals.cs: 58cb7f3aee5cd402c2db5ec7283af031 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyDrawer.cs: 644e5e4f785b4360cccc20067ff0d5bf -> 
+  custom:scripting/monoscript/fileName/KabschGraspedPose.cs: 5c7692554216dd073ff75c9a97001aeb -> 
+  custom:scripting/monoscript/fileName/CopyFromOtherExtensions.cs: 9dffed86b993e158b9253708b07d43a3 -> 
+  custom:scripting/monoscript/fileName/ContactBoneParentEditor.cs: 6665bc88e4520630f66cbdf8bac4899b -> 
+  custom:scripting/monoscript/fileName/MinMax.cs: fbed239dd9e7c8aad9375e862eb3d542 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSet.cs: 0a95a82ccb282739b1a8023bd87e57a1 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoContactHand.cs: 154ea625f6eedb37c21dfd926c5b59cb -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviour.cs: 1aea7dbced545e2e8487f2bb86d35c47 -> 
+  custom:scripting/monoscript/fileName/InteractionButtonEditor.cs: 9508dcd4a52fb3a087b4adbccdaa008d -> 
+  custom:scripting/monoscript/fileName/LeapServiceProvider.cs: f7515d904ba4c3f3d9db8f106ae7f99b -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionManager.cs: c1d07d255f4ffa1d2816e36ae5551351 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DisableIf.cs: 40e20462102b9a7128af55a8af73696b -> 
+  custom:scripting/monoscript/fileName/StructMarshal.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/HandUtils.cs: 4d981cb74852a193064363ca4d9069b2 -> 
+  custom:scripting/monoscript/fileName/SceneReadmePingEditor.cs: 97109080a50147c1c49ee1ffcf99e4b2 -> 
+  custom:scripting/monoscript/fileName/InteractionButton.cs: 3b22208adf5b33bd4ddfb349da418322 -> 
+  custom:scripting/monoscript/fileName/Finger.cs: ea602497b27ee7b1fb82add14bbedf65 -> 47c63a23d4568c72c9e2be18ba728ebd
+  custom:scripting/monoscript/fileName/TransformExtensions.cs: 33de45c9a4e7d28d645476b87b861946 -> 86b409a439be434295129394136400b6
+  custom:scripting/monoscript/fileName/SceneReadmePing.cs: 179b0a9117840e16cf552e5c33414c9f -> 
+  custom:scripting/monoscript/fileName/HandPoseValidator.cs: 372fe3f32029580835d71f4e57b03502 -> 
+  custom:scripting/monoscript/fileName/Swizzle.cs: e0dc594f26c1eef6eba2bf205bc6aed0 -> 
+  custom:scripting/monoscript/fileName/ultraleap.cs: 7fecbedac4e6d87bf0eea22f36a44fc9 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEventsEditor.cs: 8773215a67eb048b7faa0b2c4fb3b674 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 6333d15e7e6fdc49993450371b2e4e11 -> 86574b69357c867af50ed60460a14a44
+  custom:scripting/monoscript/fileName/HandBinderData.cs: 599f9731fc80d77d00442aa8c92d950b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/AndroidServiceBinder.cs: 9d36ba182618b43a5439b3b89275846a -> 
+  custom:scripting/monoscript/fileName/SingleLayerEditor.cs: a841c4cd968a965dabf7d0e26e745bd7 -> 
+  custom:scripting/monoscript/fileName/HandTrackingHintManager.cs: a74dc97178c531c776c1eb534d043fb5 -> 
+  custom:scripting/monoscript/fileName/SoftContactParent.cs: 03d3e4282b6baf2ff0500b48d6c29d07 -> 
+  custom:scripting/monoscript/fileName/ShowArm.cs: a8605e01a31a430026828d01e2c29895 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetriever.cs: ea63d578af3c2ee9c95dfdd8ca8a7d5f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IThrowHandler.cs: d9c31609fae492ad77b553a571984249 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsButton.cs: 6bab7047b34117757085ce24fb294e1f -> 
+  custom:scripting/monoscript/fileName/KinematicGraspedMovement.cs: 3dd2c2ee31d1ab1e7f63423531043908 -> 
+  custom:scripting/monoscript/fileName/HandBinderAutoBinder.cs: 5483a39b8c9580b9fa6233b1e7492c51 -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionController.cs: aa2c3c8d855547a16403266674efc32a -> 
+  custom:scripting/monoscript/fileName/InspectorName.cs: 388bc944668caf452ed5170aa12ad1b5 -> 
+  custom:scripting/monoscript/fileName/SimpleAnchorFeedback.cs: c8977b26e238f08ff753dce2a8c39f0b -> 
+  custom:scripting/monoscript/fileName/Comment.cs: 8fcd09e46ac3ab712fde4875847c5a08 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettings.cs: 83d4de6aad85a0ca963bfbb594d9ca98 -> 
+  custom:scripting/monoscript/fileName/PostProcessProvider.cs: 6abf6d1024a77e598c63d69824659da3 -> 
+  custom:scripting/monoscript/fileName/SceneReadme.cs: 8d693ab2a90c4ce951a6a99d512e7de0 -> 
+  custom:scripting/monoscript/fileName/GrabBall.cs: 267bbd0d1837de34ecac50e7a4156816 -> 
+  custom:scripting/monoscript/fileName/Config.cs: 6db961422a9eb4ebb513fcaebf633aea -> 
+  custom:scripting/monoscript/fileName/PrefabCreateMenu.cs: 824eef5039ecb1c3a2ba97f088b746a2 -> 
+  custom:scripting/monoscript/fileName/ContactUtils.cs: 0e2ea456c5d4038e2aa93330b7e5da75 -> 
+  custom:scripting/monoscript/fileName/HandBinder.cs: 18fbe7065591124648e21b51b465efe8 -> 
+  custom:scripting/monoscript/fileName/MemoryManager.cs: 2338971ab50b15cd7d4fd5181ba63ee3 -> 
+  custom:scripting/monoscript/fileName/HandModel.cs: 1ff722b1cfc7e6d9591ae9679ce8fd35 -> 
+  custom:scripting/monoscript/fileName/Extensions.cs: 279e2c93b0e755f09b9bf7d2ea2dd69d -> 
+  custom:scripting/monoscript/fileName/hand_tracking_preprocessing.cs: aaf678980477486939c576d3bce5e76c -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManager.cs: 893866cedffd4c3b67e5495a3cd9bb46 -> 
+  custom:scripting/monoscript/fileName/AnchorGroup.cs: e2bae576539b2ef394174db04dcd4130 -> 
+  custom:scripting/monoscript/fileName/GrabBallEditor.cs: ccde7c6cf91899ce298c31769d7bf45f -> 
+  custom:scripting/monoscript/fileName/SoftContactHand.cs: 2ba873edbe9b995b33341189dd7fbeed -> 
+  custom:scripting/monoscript/fileName/ColliderUtil.cs: 17144c2a6566a88926d8ccc332a57c4f -> 
+  custom:scripting/monoscript/fileName/InteractionSliderEditor.cs: 4aa8df0b8da346b432b73397f03eb23f -> 
+  custom:scripting/monoscript/fileName/InteractionSlider.cs: 460370bbf89b1a0cf86a84423ba60003 -> 
+  custom:scripting/monoscript/fileName/Frame.cs: ba75f25d179d1e97e330c8bc437b6b99 -> 
+  custom:scripting/monoscript/fileName/HeuristicGrabClassifier.cs: 8c3470083967b58bde5b5f04c65a2488 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManagerEditor.cs: 7d8d774a38004b46678ae5c3f64b23b4 -> 
+  custom:scripting/monoscript/fileName/HandModelManagerEditor.cs: 531bcf82587f3a804f24bfd900dba9b0 -> 
+  custom:scripting/monoscript/fileName/InteractionHand.cs: 3f387b41196ebaf0d27a8f1defcf91bc -> 
+  custom:scripting/monoscript/fileName/Events.cs: 4091a417928dbcde261d4f1fcb6298da -> 5e6fd182c984e3c981a7ddda9fb543ef
+  custom:scripting/monoscript/fileName/HandModelBase.cs: f3563b9f4768c1c2762ba30ef0fba474 -> 
+  custom:scripting/monoscript/fileName/EditTimeOnly.cs: 50fb8615f179fadd12441279258a2f5c -> 
+  custom:scripting/monoscript/fileName/MinValue.cs: 73281ad50196c4ba622966a87dd64c73 -> 
+  custom:scripting/monoscript/fileName/HandTransitionBehavior.cs: 9c22934c1a54dd0f36bf8466954458fd -> 
+  custom:scripting/monoscript/fileName/NonKinematicGraspedMovement.cs: 4c583a8a6fcd49f0a84fb63cc3eea3b7 -> 
+  custom:scripting/monoscript/fileName/ContactBone.cs: 709d8ecfbd22f5ebbcaaf5f2ebb3bd81 -> 
+  custom:scripting/monoscript/fileName/AttachmentHands.cs: ae271fe6441be6a41303c68ecdc5f61a -> 
+  custom:scripting/monoscript/fileName/HandPoseRecorder.cs: 0513a94cfadea4a022c6f5cef0dc2d0d -> 
+  custom:scripting/monoscript/fileName/HandBinderEditor.cs: 2c56f305bc31583d5134f9b6dfc09b39 -> 
+  custom:scripting/monoscript/fileName/FingerModel.cs: bd5efcee60404c7c25b94519726efed0 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: e468de4f24baf1f1698c588037629f42 -> 7f7033feb07c3327af57f8390eef395e
+  custom:scripting/monoscript/fileName/HandPoseEditorScripts.cs: df5d29132a5f952b23fdd2cc02efac5f -> 
+  custom:scripting/monoscript/fileName/DistortionData.cs: 7b00a94fc06e3d65689e0e1132c45f25 -> 
+  custom:scripting/monoscript/fileName/TestHandFactory.cs: 248a6b0a9bf7938e3cebf4c763f81dc1 -> 
+  custom:scripting/monoscript/fileName/SimpleFacingCameraCallbacks.cs: 5196a9907f73fd72ed44537d54cea46c -> 
+  custom:scripting/monoscript/fileName/AttachmentHandsEditor.cs: 869e454a27226203e410d023a713b156 -> 
+  custom:scripting/monoscript/fileName/HideInteractionHandWhenControllerMoving.cs: 6bff029c8e0ecdc37d7e102b05ebbce9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Detector.cs: 1635a550df25c976bfa1f237b32d8d7b -> 
+  custom:scripting/monoscript/fileName/ContactParent.cs: 6ee38fd0a3849d09829602d741fd0c0e -> 
+  custom:scripting/monoscript/fileName/HardContactHand.cs: 237038d8fc4b54958ec714e86c3cc339 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEvents.cs: 5b89fdee731c59dd70d84992f9a924fc -> 
+  custom:scripting/monoscript/fileName/HandTrackingSourceUtility.cs: b1eb311a4cef4a2e4740d5c667af2c18 -> 
+  custom:scripting/monoscript/fileName/HandPoseDetector.cs: e44e26702a06dc03232507824d74419e -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManagerEditor.cs: 2776be56cde9afc913454681fbcbb023 -> 
+  custom:scripting/monoscript/fileName/TrackingMarker.cs: c6632c064030b5b0b5d4656256d8969e -> 
+  custom:scripting/monoscript/fileName/FailedDevice.cs: 8df4bf9b9bc6c6361efd09f4ed24958c -> 
+  custom:scripting/monoscript/fileName/DebugHand.cs: f3b6ab0a01fccc9b12a2602438de860a -> 
+  custom:scripting/monoscript/fileName/SmoothedFloat.cs: 8b6bbc9ea5f5c41aee6eeb46a3ca0f9f -> 
+  custom:scripting/monoscript/fileName/IgnorePhysicalHands.cs: f0ac677fa5242f194ee9ce37738358fb -> 
+  custom:scripting/monoscript/fileName/MetadataUtil.cs: 5915b92c07fc932b12b3ca8ac6b8deaa -> 
+  custom:scripting/monoscript/fileName/SoftContactBone.cs: d2341bc00e1d4366913eae85dfb20592 -> 
+  custom:scripting/monoscript/fileName/DefaultXRNodeTrackingProvider.cs: e2fdf2db3694c1956a8f778d1030f95e -> 
+  custom:scripting/monoscript/fileName/AttachmentPointBehaviour.cs: 844a181cd62797aa4645240579f62cc9 -> 
+  custom:scripting/monoscript/fileName/OnEditorChange.cs: 40a4c0641793c630c7b75aa8751a91d5 -> 
+  custom:scripting/monoscript/fileName/IController.cs: f94c9a4da1c3ff42c5c0f387c1f0ed29 -> 503971aee916915c920068bae8831d09
+  custom:scripting/monoscript/fileName/Pool.cs: 0c503405c026414ee604042b00a39416 -> 
+  custom:scripting/monoscript/fileName/EnumFlags.cs: 4f08224f32f17c8cff04f283e02029ea -> 
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteraction.cs: 5308bae0152c297b273fbebd0d87d98d -> 
+  custom:scripting/monoscript/fileName/LeapProvider.cs: faa937163e43a6fd3e65985c65dbb1b7 -> 
+  custom:scripting/monoscript/fileName/EnumEventTable.cs: 413231cd304a979bfc82cc42c3abcdcb -> 
+  custom:scripting/monoscript/fileName/PhysExts.cs: 37ce656c727188ee2127ddb56eafea2d -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.327 seconds
+Refreshing native plugins compatible for Editor in 24.28 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.728 seconds
+Domain Reload Profiling: 4044ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (692ms)
+		LoadAssemblies (854ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (2730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (899ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 44.55 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 6344 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (11.9 MB). Loaded Objects now: 6929.
+Memory consumption went from 234.9 MB to 222.9 MB.
+Total: 14.021500 ms (FindLiveObjects: 1.000600 ms CreateObjectMapping: 0.843900 ms MarkObjects: 8.183900 ms  DeleteObjects: 3.992200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Image.cs: dd116bd88ea81caa3fb33a5e7b0cdc79 -> f32195bbbc1ca9edcb6c8c6185597e40
+  custom:scripting/monoscript/fileName/EnableDepthBuffer.cs: 7fd39fc24a9303e792bfb68bb542dbee -> 
+  custom:scripting/monoscript/fileName/AttachmentHand.cs: 88975d624f744b8f9cd6e5b867075e0f -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsEventInterfaces.cs: 85a9480a177080729caf15c44061b4fb -> 
+  custom:scripting/monoscript/fileName/HandFadeInAtDistanceFromRealData.cs: ccaa984ef09121dd15f53ff31ccbd31f -> 
+  custom:scripting/monoscript/fileName/InteractionManagerEditor.cs: 3513bbe6b2b46384e4c649bc0ffc284f -> 
+  custom:scripting/monoscript/fileName/ImageData.cs: c512f19a780b6133f1f3b416c63d0231 -> 
+  custom:scripting/monoscript/fileName/HandPoseViewer.cs: eafdb75e54f743c56a842c2f69a57a41 -> 
+  custom:scripting/monoscript/fileName/Disable.cs: a1682ccd2340bf7298f4bf7e344d3db8 -> 
+  custom:scripting/monoscript/fileName/Device.cs: ad62f1222adf5933bc1a520de13b8645 -> 8726cf26051bd1b118e5a19691a28e54
+  custom:scripting/monoscript/fileName/KabschSolver.cs: 06cdb91d0d03716b4958aa05368120ce -> 
+  custom:scripting/monoscript/fileName/RingBuffer.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/MLModel.cs: e88b6072eb5ba632d908216fb2d0313a -> 
+  custom:scripting/monoscript/fileName/EditorUtils.cs: c0494a05e702871fc6f358469d54778d -> a5caa48634245734f9c5a18079fb3381
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteractionEditor.cs: fee27e35de0763398abbdaf67b913ee4 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoToggle.cs: 2fc630b9f68da2675435e44937157313 -> 
+  custom:scripting/monoscript/fileName/CommentEditor.cs: af910870a02543bf51329dbb23fe337d -> 
+  custom:scripting/monoscript/fileName/ActivityManager.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManager.cs: 07fc9528be1fa8e677632d1149ab16b5 -> 
+  custom:scripting/monoscript/fileName/CapsuleHandEditor.cs: e5dc04dbbee22385687f1f4550e9cbbd -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VectorHand.cs: 776f9210ea5a922a53cae32fbdc2df0c -> 
+  custom:scripting/monoscript/fileName/Anchor.cs: 2038d7c9cd3508891eef16e05324f421 -> 53e203cc42456abeae69f3e171778a05
+  custom:scripting/monoscript/fileName/Units.cs: 3cbad8ec4b02325d3bbf992a0580f2c4 -> 37c4edb88e9b56be5f2707f3667ee057
+  custom:scripting/monoscript/fileName/GrabHelper.cs: 99d3f131a2af3e0dd6e1f52606979189 -> 
+  custom:scripting/monoscript/fileName/HandModelManager.cs: 6dc2f2b625e043c086f79256fbab482d -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviourEditor.cs: f0f502d0ad87df02b678114215b1ba6e -> 
+  custom:scripting/monoscript/fileName/InteractionToggle.cs: 0636462b0c088f21d2e5b04147c6ff78 -> 
+  custom:scripting/monoscript/fileName/ContactHand.cs: d0475db14978c031124a9d9b05483169 -> 
+  custom:scripting/monoscript/fileName/ExtendedFingerDetector.cs: f1b607b329fcad109fb574ab67e082a8 -> 
+  custom:scripting/monoscript/fileName/CapsuleHand.cs: c57496f2d0498fd59af21f100aeac8c4 -> 
+  custom:scripting/monoscript/fileName/Arm.cs: 010ea98d3323a185f2519303e59c455c -> 
+  custom:scripting/monoscript/fileName/DetectorLogicGate.cs: e4d313b25c0f78d1305eeb3caff86d45 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoManager.cs: c11366454472ac9a8a005e2be143c6d5 -> 
+  custom:scripting/monoscript/fileName/EnumEventTableEditor.cs: 0c78fcffb52a19afb9079f5e6b2ab845 -> 
+  custom:scripting/monoscript/fileName/PinchDetector.cs: 75157010cdff3b53c7f31f359a5e85ed -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsPopup.cs: a89d64b367bc2809964ad0e0859e6768 -> 
+  custom:scripting/monoscript/fileName/CSharpExtensions.cs: 85106955723467757fce4c5c47b96afc -> 
+  custom:scripting/monoscript/fileName/IInteractionBehaviour.cs: 89dcda52014e294a8758eb7a738fce6a -> 
+  custom:scripting/monoscript/fileName/InteractionController.cs: 66b694b52005c04787d1ac695f741e85 -> 
+  custom:scripting/monoscript/fileName/HardContactBone.cs: a08844e10b115675b6908817545c9d6c -> 
+  custom:scripting/monoscript/fileName/Connection.cs: 2ee471f900f6cc4109915e5da51dc329 -> 
+  custom:scripting/monoscript/fileName/TrackingMarkerObject.cs: 659c65cf3050a717937089b3657af814 -> 
+  custom:scripting/monoscript/fileName/NoContactBone.cs: dc6a607836bbe37ac63af32e6c7cdae9 -> 
+  custom:scripting/monoscript/fileName/VisualFOV.cs: 46b476c283ed3b50035f404aaa011660 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IGraspedPoseHandler.cs: 36252c95c3484675f11f234b565d7d8b -> 
+  custom:scripting/monoscript/fileName/IXRControllerTrackingProvider.cs: 74e0223fe2a1e34b29a4341e78374fc9 -> 
+  custom:scripting/monoscript/fileName/BuildValidation.cs: 73732fc82347556a9bf8c64b797d6d49 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FailedDeviceList.cs: fef2af07eb00ca06cb57960ef688bad4 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyAttribute.cs: 0690a5457a9d84bf3fdbea639e8c4293 -> 
+  custom:scripting/monoscript/fileName/CopyFromLeapCExtensions.cs: 855f10755e2efaa6caaa1c89ac6f9a2d -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProvider.cs: cc05d5cc67f8b16181b73c064d186e4d -> 
+  custom:scripting/monoscript/fileName/HardContactParent.cs: fec151c1b07542f61621f53021ab589e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: e6faf4c1336f494e003337da71e91d11 -> 55f7b0b00c4dac6ffe964f95d7fe1ac4
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ReadonlyHashSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSupportUtil.cs: bfcc1cf50b236c185148264ff3bd65ed -> 
+  custom:scripting/monoscript/fileName/AttachmentPointFlags.cs: 50ba43bc00d8be79acc1806068c7cdc4 -> 
+  custom:scripting/monoscript/fileName/ServerStatus.cs: fd495324ef2afc9af25138d0414a1beb -> 
+  custom:scripting/monoscript/fileName/AnchorEditor.cs: c922163015cea4272b8d24586ed7bea1 -> 
+  custom:scripting/monoscript/fileName/FingerDirectionDetector.cs: ac1b81189441907d21ccaaba3ee0c38c -> 
+  custom:scripting/monoscript/fileName/IGraspedMovementHandler.cs: b66376da3246a771f963267200e42cb7 -> 
+  custom:scripting/monoscript/fileName/NoContactParent.cs: f3ae45216fc70e2578ff1f1df9c4b732 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetrieverEditor.cs: ba8150fa90c4de9a0bba5a6d95240cd6 -> 
+  custom:scripting/monoscript/fileName/PostProcessProviderEditor.cs: 2075fc2c8607603c3dbe371df4e61b66 -> 
+  custom:scripting/monoscript/fileName/PhysicsUtility.cs: 96d6762544c05528e7c3a54de17d1daf -> 
+  custom:scripting/monoscript/fileName/PhysicsCallbacks.cs: 70bc13e955bcb0f8313b46c4ab2ec1a9 -> 
+  custom:scripting/monoscript/fileName/Pose.cs: 76eed2a39b937f591e93be84ffba2149 -> 61b8ae9a3937d01eeb909f0b933fcf0b
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 881db0f9e9b257a8169bfcf1119f57bb -> a4aed7f6582c4d0ce49f4e5ce2ad68c1
+  custom:scripting/monoscript/fileName/ServiceCallbacks.cs: b98cb899d8c2d1dc92eeb30742334f64 -> 
+  custom:scripting/monoscript/fileName/IgnoreCollisionsInChildren.cs: 92856c240811d4ab234fea24384be587 -> 
+  custom:scripting/monoscript/fileName/MaxValue.cs: 35a50d8b668ff327a1ed9a9ea69337d4 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviour.cs: f8a3e9f3597ffc16d7b9dde45ba2f830 -> 
+  custom:scripting/monoscript/fileName/InteractionHandEditor.cs: 261de0311508c164283fe0a8015f3b82 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSetEditor.cs: 6301d3e6fa42ecd41b5073a0db2135bf -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProduceConsumeBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsProvider.cs: 90f889f2e5dc375770f3709166792ff5 -> 
+  custom:scripting/monoscript/fileName/Bone.cs: c400bd4975023e6c4040cb74e2042bf9 -> 
+  custom:scripting/monoscript/fileName/LeapTransform.cs: 14bf8a803c8c800112b10551a33ee56f -> 
+  custom:scripting/monoscript/fileName/InteractionVRControllerEditor.cs: 8b44cce0f52dc1d50bf738745395cf94 -> 
+  custom:scripting/monoscript/fileName/AbstractHoldDetector.cs: a718392dfd22751f3a835b0bec8468da -> 
+  custom:scripting/monoscript/fileName/InteractionXRController.cs: c1b2f90ad78b044e56f0a1d950d201a6 -> 
+  custom:scripting/monoscript/fileName/GrabClassifierHeuristics.cs: c728d8157ee729e13016cf2378fc460e -> 
+  custom:scripting/monoscript/fileName/UltraleapSettings.cs: aeaa2c9ed6ff3ced03a16a5d2e9c2fd7 -> 
+  custom:scripting/monoscript/fileName/SimpleInteractionGlow.cs: dae97eb17f7a1bcf6c85fd06fc1e325c -> 
+  custom:scripting/monoscript/fileName/BitConverterNonAlloc.cs: a6a74a204a9f5593c041179223e89d3f -> 
+  custom:scripting/monoscript/fileName/GrabHelperObject.cs: 194888d542b66c176b83d3bb447109de -> 
+  custom:scripting/monoscript/fileName/CircularObjectBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SceneReadmeEditor.cs: c385b4cf08e81b862867587c2c945db3 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PalmDirectionDetector.cs: 4799ac49851bda09ab3a3e51ed3c642c -> 
+  custom:scripting/monoscript/fileName/HandEnableDisable.cs: 7acfe8a351856950d6dd20f3c65830de -> 
+  custom:scripting/monoscript/fileName/ProximityDetector.cs: bedf37f48edf86aff4ae85b3a3606058 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviourEditor.cs: 5df3aad8b720c44c2fec6325c4a22d2b -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProviderEditor.cs: cddb6b5fc8292e8ff103354ddf6ef98b -> 
+  custom:scripting/monoscript/fileName/InteractionControllerEditor.cs: 42bb0f0bae7bd39982f42c38df24e25f -> 
+  custom:scripting/monoscript/fileName/DeviceList.cs: c06ad90d9bce7c25dd2e887c0599090c -> 
+  custom:scripting/monoscript/fileName/SingleLayer.cs: cc1c6357dcbb795e8c32425e66ff8897 -> 
+  custom:scripting/monoscript/fileName/SampleDependencyImporter.cs: 4e80419adb5c9ea134d2f34886576360 -> 
+  custom:scripting/monoscript/fileName/LeapC.cs: 199b5482924fc6e5dafbf50dfcafae5c -> 
+  custom:scripting/monoscript/fileName/ContactBoneParent.cs: 3a8373bb397a2baceb5355e2e3bea328 -> 
+  custom:scripting/monoscript/fileName/TransformHistory.cs: 26832af49495cd5374f96c83bb80989f -> 
+  custom:scripting/monoscript/fileName/AttachmentHandEnableDisable.cs: ea34776d8c9291b5c63f65339b9fc307 -> 
+  custom:scripting/monoscript/fileName/SlidingWindowThrow.cs: ad4c30111fa96fcd23d4c8d789177a20 -> 
+  custom:scripting/monoscript/fileName/HandPoseScriptableObject.cs: 8389b4cfd5162c13de2e57b0175f94dc -> 
+  custom:scripting/monoscript/fileName/InteractionManager.cs: cfa43ac53ca23c24a586a39cfce5a3cd -> 
+  custom:scripting/monoscript/fileName/PointMapping.cs: 74a9faa23fa193bf4140350c668cd796 -> 
+  custom:scripting/monoscript/fileName/Hand.cs: ada2a35ec298c35a3ea3b312ea9015f1 -> 93aaff1e58f2682a7eddebf5f692a11e
+  custom:scripting/monoscript/fileName/LeapServiceProviderEditor.cs: 79ad843728814a0953d3abea10bbe38a -> 
+  custom:scripting/monoscript/fileName/CustomPropertyDrawerBase.cs: a8ed9474cc6c04bf7f8cf34ab5b21f10 -> 
+  custom:scripting/monoscript/fileName/DistortTrackingDataToVisuals.cs: 58cb7f3aee5cd402c2db5ec7283af031 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyDrawer.cs: 644e5e4f785b4360cccc20067ff0d5bf -> 
+  custom:scripting/monoscript/fileName/KabschGraspedPose.cs: 5c7692554216dd073ff75c9a97001aeb -> 
+  custom:scripting/monoscript/fileName/CopyFromOtherExtensions.cs: 9dffed86b993e158b9253708b07d43a3 -> 
+  custom:scripting/monoscript/fileName/ContactBoneParentEditor.cs: 6665bc88e4520630f66cbdf8bac4899b -> 
+  custom:scripting/monoscript/fileName/MinMax.cs: fbed239dd9e7c8aad9375e862eb3d542 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSet.cs: 0a95a82ccb282739b1a8023bd87e57a1 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoContactHand.cs: 154ea625f6eedb37c21dfd926c5b59cb -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviour.cs: 1aea7dbced545e2e8487f2bb86d35c47 -> 
+  custom:scripting/monoscript/fileName/InteractionButtonEditor.cs: 9508dcd4a52fb3a087b4adbccdaa008d -> 
+  custom:scripting/monoscript/fileName/LeapServiceProvider.cs: f7515d904ba4c3f3d9db8f106ae7f99b -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionManager.cs: c1d07d255f4ffa1d2816e36ae5551351 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DisableIf.cs: 40e20462102b9a7128af55a8af73696b -> 
+  custom:scripting/monoscript/fileName/StructMarshal.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/HandUtils.cs: 4d981cb74852a193064363ca4d9069b2 -> 
+  custom:scripting/monoscript/fileName/SceneReadmePingEditor.cs: 97109080a50147c1c49ee1ffcf99e4b2 -> 
+  custom:scripting/monoscript/fileName/InteractionButton.cs: 3b22208adf5b33bd4ddfb349da418322 -> 
+  custom:scripting/monoscript/fileName/Finger.cs: ea602497b27ee7b1fb82add14bbedf65 -> 47c63a23d4568c72c9e2be18ba728ebd
+  custom:scripting/monoscript/fileName/TransformExtensions.cs: 33de45c9a4e7d28d645476b87b861946 -> 86b409a439be434295129394136400b6
+  custom:scripting/monoscript/fileName/SceneReadmePing.cs: 179b0a9117840e16cf552e5c33414c9f -> 
+  custom:scripting/monoscript/fileName/HandPoseValidator.cs: 372fe3f32029580835d71f4e57b03502 -> 
+  custom:scripting/monoscript/fileName/Swizzle.cs: e0dc594f26c1eef6eba2bf205bc6aed0 -> 
+  custom:scripting/monoscript/fileName/ultraleap.cs: 7fecbedac4e6d87bf0eea22f36a44fc9 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEventsEditor.cs: 8773215a67eb048b7faa0b2c4fb3b674 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 6333d15e7e6fdc49993450371b2e4e11 -> 86574b69357c867af50ed60460a14a44
+  custom:scripting/monoscript/fileName/HandBinderData.cs: 599f9731fc80d77d00442aa8c92d950b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/AndroidServiceBinder.cs: 9d36ba182618b43a5439b3b89275846a -> 
+  custom:scripting/monoscript/fileName/SingleLayerEditor.cs: a841c4cd968a965dabf7d0e26e745bd7 -> 
+  custom:scripting/monoscript/fileName/HandTrackingHintManager.cs: a74dc97178c531c776c1eb534d043fb5 -> 
+  custom:scripting/monoscript/fileName/SoftContactParent.cs: 03d3e4282b6baf2ff0500b48d6c29d07 -> 
+  custom:scripting/monoscript/fileName/ShowArm.cs: a8605e01a31a430026828d01e2c29895 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetriever.cs: ea63d578af3c2ee9c95dfdd8ca8a7d5f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IThrowHandler.cs: d9c31609fae492ad77b553a571984249 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsButton.cs: 6bab7047b34117757085ce24fb294e1f -> 
+  custom:scripting/monoscript/fileName/KinematicGraspedMovement.cs: 3dd2c2ee31d1ab1e7f63423531043908 -> 
+  custom:scripting/monoscript/fileName/HandBinderAutoBinder.cs: 5483a39b8c9580b9fa6233b1e7492c51 -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionController.cs: aa2c3c8d855547a16403266674efc32a -> 
+  custom:scripting/monoscript/fileName/InspectorName.cs: 388bc944668caf452ed5170aa12ad1b5 -> 
+  custom:scripting/monoscript/fileName/SimpleAnchorFeedback.cs: c8977b26e238f08ff753dce2a8c39f0b -> 
+  custom:scripting/monoscript/fileName/Comment.cs: 8fcd09e46ac3ab712fde4875847c5a08 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettings.cs: 83d4de6aad85a0ca963bfbb594d9ca98 -> 
+  custom:scripting/monoscript/fileName/PostProcessProvider.cs: 6abf6d1024a77e598c63d69824659da3 -> 
+  custom:scripting/monoscript/fileName/SceneReadme.cs: 8d693ab2a90c4ce951a6a99d512e7de0 -> 
+  custom:scripting/monoscript/fileName/GrabBall.cs: 267bbd0d1837de34ecac50e7a4156816 -> 
+  custom:scripting/monoscript/fileName/Config.cs: 6db961422a9eb4ebb513fcaebf633aea -> 
+  custom:scripting/monoscript/fileName/PrefabCreateMenu.cs: 824eef5039ecb1c3a2ba97f088b746a2 -> 
+  custom:scripting/monoscript/fileName/ContactUtils.cs: 0e2ea456c5d4038e2aa93330b7e5da75 -> 
+  custom:scripting/monoscript/fileName/HandBinder.cs: 18fbe7065591124648e21b51b465efe8 -> 
+  custom:scripting/monoscript/fileName/MemoryManager.cs: 2338971ab50b15cd7d4fd5181ba63ee3 -> 
+  custom:scripting/monoscript/fileName/HandModel.cs: 1ff722b1cfc7e6d9591ae9679ce8fd35 -> 
+  custom:scripting/monoscript/fileName/Extensions.cs: 279e2c93b0e755f09b9bf7d2ea2dd69d -> 
+  custom:scripting/monoscript/fileName/hand_tracking_preprocessing.cs: aaf678980477486939c576d3bce5e76c -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManager.cs: 893866cedffd4c3b67e5495a3cd9bb46 -> 
+  custom:scripting/monoscript/fileName/AnchorGroup.cs: e2bae576539b2ef394174db04dcd4130 -> 
+  custom:scripting/monoscript/fileName/GrabBallEditor.cs: ccde7c6cf91899ce298c31769d7bf45f -> 
+  custom:scripting/monoscript/fileName/SoftContactHand.cs: 2ba873edbe9b995b33341189dd7fbeed -> 
+  custom:scripting/monoscript/fileName/ColliderUtil.cs: 17144c2a6566a88926d8ccc332a57c4f -> 
+  custom:scripting/monoscript/fileName/InteractionSliderEditor.cs: 4aa8df0b8da346b432b73397f03eb23f -> 
+  custom:scripting/monoscript/fileName/InteractionSlider.cs: 460370bbf89b1a0cf86a84423ba60003 -> 
+  custom:scripting/monoscript/fileName/Frame.cs: ba75f25d179d1e97e330c8bc437b6b99 -> 
+  custom:scripting/monoscript/fileName/HeuristicGrabClassifier.cs: 8c3470083967b58bde5b5f04c65a2488 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManagerEditor.cs: 7d8d774a38004b46678ae5c3f64b23b4 -> 
+  custom:scripting/monoscript/fileName/HandModelManagerEditor.cs: 531bcf82587f3a804f24bfd900dba9b0 -> 
+  custom:scripting/monoscript/fileName/InteractionHand.cs: 3f387b41196ebaf0d27a8f1defcf91bc -> 
+  custom:scripting/monoscript/fileName/Events.cs: 4091a417928dbcde261d4f1fcb6298da -> 5e6fd182c984e3c981a7ddda9fb543ef
+  custom:scripting/monoscript/fileName/HandModelBase.cs: f3563b9f4768c1c2762ba30ef0fba474 -> 
+  custom:scripting/monoscript/fileName/EditTimeOnly.cs: 50fb8615f179fadd12441279258a2f5c -> 
+  custom:scripting/monoscript/fileName/MinValue.cs: 73281ad50196c4ba622966a87dd64c73 -> 
+  custom:scripting/monoscript/fileName/HandTransitionBehavior.cs: 9c22934c1a54dd0f36bf8466954458fd -> 
+  custom:scripting/monoscript/fileName/NonKinematicGraspedMovement.cs: 4c583a8a6fcd49f0a84fb63cc3eea3b7 -> 
+  custom:scripting/monoscript/fileName/ContactBone.cs: 709d8ecfbd22f5ebbcaaf5f2ebb3bd81 -> 
+  custom:scripting/monoscript/fileName/AttachmentHands.cs: ae271fe6441be6a41303c68ecdc5f61a -> 
+  custom:scripting/monoscript/fileName/HandPoseRecorder.cs: 0513a94cfadea4a022c6f5cef0dc2d0d -> 
+  custom:scripting/monoscript/fileName/HandBinderEditor.cs: 2c56f305bc31583d5134f9b6dfc09b39 -> 
+  custom:scripting/monoscript/fileName/FingerModel.cs: bd5efcee60404c7c25b94519726efed0 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: e468de4f24baf1f1698c588037629f42 -> 7f7033feb07c3327af57f8390eef395e
+  custom:scripting/monoscript/fileName/HandPoseEditorScripts.cs: df5d29132a5f952b23fdd2cc02efac5f -> 
+  custom:scripting/monoscript/fileName/DistortionData.cs: 7b00a94fc06e3d65689e0e1132c45f25 -> 
+  custom:scripting/monoscript/fileName/TestHandFactory.cs: 248a6b0a9bf7938e3cebf4c763f81dc1 -> 
+  custom:scripting/monoscript/fileName/SimpleFacingCameraCallbacks.cs: 5196a9907f73fd72ed44537d54cea46c -> 
+  custom:scripting/monoscript/fileName/AttachmentHandsEditor.cs: 869e454a27226203e410d023a713b156 -> 
+  custom:scripting/monoscript/fileName/HideInteractionHandWhenControllerMoving.cs: 6bff029c8e0ecdc37d7e102b05ebbce9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Detector.cs: 1635a550df25c976bfa1f237b32d8d7b -> 
+  custom:scripting/monoscript/fileName/ContactParent.cs: 6ee38fd0a3849d09829602d741fd0c0e -> 
+  custom:scripting/monoscript/fileName/HardContactHand.cs: 237038d8fc4b54958ec714e86c3cc339 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEvents.cs: 5b89fdee731c59dd70d84992f9a924fc -> 
+  custom:scripting/monoscript/fileName/HandTrackingSourceUtility.cs: b1eb311a4cef4a2e4740d5c667af2c18 -> 
+  custom:scripting/monoscript/fileName/HandPoseDetector.cs: e44e26702a06dc03232507824d74419e -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManagerEditor.cs: 2776be56cde9afc913454681fbcbb023 -> 
+  custom:scripting/monoscript/fileName/TrackingMarker.cs: c6632c064030b5b0b5d4656256d8969e -> 
+  custom:scripting/monoscript/fileName/FailedDevice.cs: 8df4bf9b9bc6c6361efd09f4ed24958c -> 
+  custom:scripting/monoscript/fileName/DebugHand.cs: f3b6ab0a01fccc9b12a2602438de860a -> 
+  custom:scripting/monoscript/fileName/SmoothedFloat.cs: 8b6bbc9ea5f5c41aee6eeb46a3ca0f9f -> 
+  custom:scripting/monoscript/fileName/IgnorePhysicalHands.cs: f0ac677fa5242f194ee9ce37738358fb -> 
+  custom:scripting/monoscript/fileName/MetadataUtil.cs: 5915b92c07fc932b12b3ca8ac6b8deaa -> 
+  custom:scripting/monoscript/fileName/SoftContactBone.cs: d2341bc00e1d4366913eae85dfb20592 -> 
+  custom:scripting/monoscript/fileName/DefaultXRNodeTrackingProvider.cs: e2fdf2db3694c1956a8f778d1030f95e -> 
+  custom:scripting/monoscript/fileName/AttachmentPointBehaviour.cs: 844a181cd62797aa4645240579f62cc9 -> 
+  custom:scripting/monoscript/fileName/OnEditorChange.cs: 40a4c0641793c630c7b75aa8751a91d5 -> 
+  custom:scripting/monoscript/fileName/IController.cs: f94c9a4da1c3ff42c5c0f387c1f0ed29 -> 503971aee916915c920068bae8831d09
+  custom:scripting/monoscript/fileName/Pool.cs: 0c503405c026414ee604042b00a39416 -> 
+  custom:scripting/monoscript/fileName/EnumFlags.cs: 4f08224f32f17c8cff04f283e02029ea -> 
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteraction.cs: 5308bae0152c297b273fbebd0d87d98d -> 
+  custom:scripting/monoscript/fileName/LeapProvider.cs: faa937163e43a6fd3e65985c65dbb1b7 -> 
+  custom:scripting/monoscript/fileName/EnumEventTable.cs: 413231cd304a979bfc82cc42c3abcdcb -> 
+  custom:scripting/monoscript/fileName/PhysExts.cs: 37ce656c727188ee2127ddb56eafea2d -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.008 seconds
+Refreshing native plugins compatible for Editor in 22.31 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.313 seconds
+Domain Reload Profiling: 3315ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (636ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (2314ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (291ms)
+			ProcessInitializeOnLoadAttributes (723ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 55.22 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 6344 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (11.9 MB). Loaded Objects now: 6933.
+Memory consumption went from 236.8 MB to 224.9 MB.
+Total: 19.936900 ms (FindLiveObjects: 0.853600 ms CreateObjectMapping: 1.653400 ms MarkObjects: 13.587100 ms  DeleteObjects: 3.840500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Image.cs: dd116bd88ea81caa3fb33a5e7b0cdc79 -> f32195bbbc1ca9edcb6c8c6185597e40
+  custom:scripting/monoscript/fileName/EnableDepthBuffer.cs: 7fd39fc24a9303e792bfb68bb542dbee -> 
+  custom:scripting/monoscript/fileName/AttachmentHand.cs: 88975d624f744b8f9cd6e5b867075e0f -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsEventInterfaces.cs: 85a9480a177080729caf15c44061b4fb -> 
+  custom:scripting/monoscript/fileName/HandFadeInAtDistanceFromRealData.cs: ccaa984ef09121dd15f53ff31ccbd31f -> 
+  custom:scripting/monoscript/fileName/InteractionManagerEditor.cs: 3513bbe6b2b46384e4c649bc0ffc284f -> 
+  custom:scripting/monoscript/fileName/ImageData.cs: c512f19a780b6133f1f3b416c63d0231 -> 
+  custom:scripting/monoscript/fileName/HandPoseViewer.cs: eafdb75e54f743c56a842c2f69a57a41 -> 
+  custom:scripting/monoscript/fileName/Disable.cs: a1682ccd2340bf7298f4bf7e344d3db8 -> 
+  custom:scripting/monoscript/fileName/Device.cs: ad62f1222adf5933bc1a520de13b8645 -> 8726cf26051bd1b118e5a19691a28e54
+  custom:scripting/monoscript/fileName/KabschSolver.cs: 06cdb91d0d03716b4958aa05368120ce -> 
+  custom:scripting/monoscript/fileName/RingBuffer.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/MLModel.cs: e88b6072eb5ba632d908216fb2d0313a -> 
+  custom:scripting/monoscript/fileName/EditorUtils.cs: c0494a05e702871fc6f358469d54778d -> a5caa48634245734f9c5a18079fb3381
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteractionEditor.cs: fee27e35de0763398abbdaf67b913ee4 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoToggle.cs: 2fc630b9f68da2675435e44937157313 -> 
+  custom:scripting/monoscript/fileName/CommentEditor.cs: af910870a02543bf51329dbb23fe337d -> 
+  custom:scripting/monoscript/fileName/ActivityManager.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManager.cs: 07fc9528be1fa8e677632d1149ab16b5 -> 
+  custom:scripting/monoscript/fileName/CapsuleHandEditor.cs: e5dc04dbbee22385687f1f4550e9cbbd -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VectorHand.cs: 776f9210ea5a922a53cae32fbdc2df0c -> 
+  custom:scripting/monoscript/fileName/Anchor.cs: 2038d7c9cd3508891eef16e05324f421 -> 53e203cc42456abeae69f3e171778a05
+  custom:scripting/monoscript/fileName/Units.cs: 3cbad8ec4b02325d3bbf992a0580f2c4 -> 37c4edb88e9b56be5f2707f3667ee057
+  custom:scripting/monoscript/fileName/GrabHelper.cs: 99d3f131a2af3e0dd6e1f52606979189 -> 
+  custom:scripting/monoscript/fileName/HandModelManager.cs: 6dc2f2b625e043c086f79256fbab482d -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviourEditor.cs: f0f502d0ad87df02b678114215b1ba6e -> 
+  custom:scripting/monoscript/fileName/InteractionToggle.cs: 0636462b0c088f21d2e5b04147c6ff78 -> 
+  custom:scripting/monoscript/fileName/ContactHand.cs: d0475db14978c031124a9d9b05483169 -> 
+  custom:scripting/monoscript/fileName/ExtendedFingerDetector.cs: f1b607b329fcad109fb574ab67e082a8 -> 
+  custom:scripting/monoscript/fileName/CapsuleHand.cs: c57496f2d0498fd59af21f100aeac8c4 -> 
+  custom:scripting/monoscript/fileName/Arm.cs: 010ea98d3323a185f2519303e59c455c -> 
+  custom:scripting/monoscript/fileName/DetectorLogicGate.cs: e4d313b25c0f78d1305eeb3caff86d45 -> 
+  custom:scripting/monoscript/fileName/RuntimeGizmoManager.cs: c11366454472ac9a8a005e2be143c6d5 -> 
+  custom:scripting/monoscript/fileName/EnumEventTableEditor.cs: 0c78fcffb52a19afb9079f5e6b2ab845 -> 
+  custom:scripting/monoscript/fileName/PinchDetector.cs: 75157010cdff3b53c7f31f359a5e85ed -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsPopup.cs: a89d64b367bc2809964ad0e0859e6768 -> 
+  custom:scripting/monoscript/fileName/CSharpExtensions.cs: 85106955723467757fce4c5c47b96afc -> 
+  custom:scripting/monoscript/fileName/IInteractionBehaviour.cs: 89dcda52014e294a8758eb7a738fce6a -> 
+  custom:scripting/monoscript/fileName/InteractionController.cs: 66b694b52005c04787d1ac695f741e85 -> 
+  custom:scripting/monoscript/fileName/HardContactBone.cs: a08844e10b115675b6908817545c9d6c -> 
+  custom:scripting/monoscript/fileName/Connection.cs: 2ee471f900f6cc4109915e5da51dc329 -> 
+  custom:scripting/monoscript/fileName/TrackingMarkerObject.cs: 659c65cf3050a717937089b3657af814 -> 
+  custom:scripting/monoscript/fileName/NoContactBone.cs: dc6a607836bbe37ac63af32e6c7cdae9 -> 
+  custom:scripting/monoscript/fileName/VisualFOV.cs: 46b476c283ed3b50035f404aaa011660 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IGraspedPoseHandler.cs: 36252c95c3484675f11f234b565d7d8b -> 
+  custom:scripting/monoscript/fileName/IXRControllerTrackingProvider.cs: 74e0223fe2a1e34b29a4341e78374fc9 -> 
+  custom:scripting/monoscript/fileName/BuildValidation.cs: 73732fc82347556a9bf8c64b797d6d49 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/FailedDeviceList.cs: fef2af07eb00ca06cb57960ef688bad4 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyAttribute.cs: 0690a5457a9d84bf3fdbea639e8c4293 -> 
+  custom:scripting/monoscript/fileName/CopyFromLeapCExtensions.cs: 855f10755e2efaa6caaa1c89ac6f9a2d -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProvider.cs: cc05d5cc67f8b16181b73c064d186e4d -> 
+  custom:scripting/monoscript/fileName/HardContactParent.cs: fec151c1b07542f61621f53021ab589e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: e6faf4c1336f494e003337da71e91d11 -> 55f7b0b00c4dac6ffe964f95d7fe1ac4
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ReadonlyHashSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSupportUtil.cs: bfcc1cf50b236c185148264ff3bd65ed -> 
+  custom:scripting/monoscript/fileName/AttachmentPointFlags.cs: 50ba43bc00d8be79acc1806068c7cdc4 -> 
+  custom:scripting/monoscript/fileName/ServerStatus.cs: fd495324ef2afc9af25138d0414a1beb -> 
+  custom:scripting/monoscript/fileName/AnchorEditor.cs: c922163015cea4272b8d24586ed7bea1 -> 
+  custom:scripting/monoscript/fileName/FingerDirectionDetector.cs: ac1b81189441907d21ccaaba3ee0c38c -> 
+  custom:scripting/monoscript/fileName/IGraspedMovementHandler.cs: b66376da3246a771f963267200e42cb7 -> 
+  custom:scripting/monoscript/fileName/NoContactParent.cs: f3ae45216fc70e2578ff1f1df9c4b732 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetrieverEditor.cs: ba8150fa90c4de9a0bba5a6d95240cd6 -> 
+  custom:scripting/monoscript/fileName/PostProcessProviderEditor.cs: 2075fc2c8607603c3dbe371df4e61b66 -> 
+  custom:scripting/monoscript/fileName/PhysicsUtility.cs: 96d6762544c05528e7c3a54de17d1daf -> 
+  custom:scripting/monoscript/fileName/PhysicsCallbacks.cs: 70bc13e955bcb0f8313b46c4ab2ec1a9 -> 
+  custom:scripting/monoscript/fileName/Pose.cs: 76eed2a39b937f591e93be84ffba2149 -> 61b8ae9a3937d01eeb909f0b933fcf0b
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 881db0f9e9b257a8169bfcf1119f57bb -> a4aed7f6582c4d0ce49f4e5ce2ad68c1
+  custom:scripting/monoscript/fileName/ServiceCallbacks.cs: b98cb899d8c2d1dc92eeb30742334f64 -> 
+  custom:scripting/monoscript/fileName/IgnoreCollisionsInChildren.cs: 92856c240811d4ab234fea24384be587 -> 
+  custom:scripting/monoscript/fileName/MaxValue.cs: 35a50d8b668ff327a1ed9a9ea69337d4 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviour.cs: f8a3e9f3597ffc16d7b9dde45ba2f830 -> 
+  custom:scripting/monoscript/fileName/InteractionHandEditor.cs: 261de0311508c164283fe0a8015f3b82 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSetEditor.cs: 6301d3e6fa42ecd41b5073a0db2135bf -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProduceConsumeBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettingsProvider.cs: 90f889f2e5dc375770f3709166792ff5 -> 
+  custom:scripting/monoscript/fileName/Bone.cs: c400bd4975023e6c4040cb74e2042bf9 -> 
+  custom:scripting/monoscript/fileName/LeapTransform.cs: 14bf8a803c8c800112b10551a33ee56f -> 
+  custom:scripting/monoscript/fileName/InteractionVRControllerEditor.cs: 8b44cce0f52dc1d50bf738745395cf94 -> 
+  custom:scripting/monoscript/fileName/AbstractHoldDetector.cs: a718392dfd22751f3a835b0bec8468da -> 
+  custom:scripting/monoscript/fileName/InteractionXRController.cs: c1b2f90ad78b044e56f0a1d950d201a6 -> 
+  custom:scripting/monoscript/fileName/GrabClassifierHeuristics.cs: c728d8157ee729e13016cf2378fc460e -> 
+  custom:scripting/monoscript/fileName/UltraleapSettings.cs: aeaa2c9ed6ff3ced03a16a5d2e9c2fd7 -> 
+  custom:scripting/monoscript/fileName/SimpleInteractionGlow.cs: dae97eb17f7a1bcf6c85fd06fc1e325c -> 
+  custom:scripting/monoscript/fileName/BitConverterNonAlloc.cs: a6a74a204a9f5593c041179223e89d3f -> 
+  custom:scripting/monoscript/fileName/GrabHelperObject.cs: 194888d542b66c176b83d3bb447109de -> 
+  custom:scripting/monoscript/fileName/CircularObjectBuffer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SceneReadmeEditor.cs: c385b4cf08e81b862867587c2c945db3 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PalmDirectionDetector.cs: 4799ac49851bda09ab3a3e51ed3c642c -> 
+  custom:scripting/monoscript/fileName/HandEnableDisable.cs: 7acfe8a351856950d6dd20f3c65830de -> 
+  custom:scripting/monoscript/fileName/ProximityDetector.cs: bedf37f48edf86aff4ae85b3a3606058 -> 
+  custom:scripting/monoscript/fileName/InteractionBehaviourEditor.cs: 5df3aad8b720c44c2fec6325c4a22d2b -> 
+  custom:scripting/monoscript/fileName/LeapXRServiceProviderEditor.cs: cddb6b5fc8292e8ff103354ddf6ef98b -> 
+  custom:scripting/monoscript/fileName/InteractionControllerEditor.cs: 42bb0f0bae7bd39982f42c38df24e25f -> 
+  custom:scripting/monoscript/fileName/DeviceList.cs: c06ad90d9bce7c25dd2e887c0599090c -> 
+  custom:scripting/monoscript/fileName/SingleLayer.cs: cc1c6357dcbb795e8c32425e66ff8897 -> 
+  custom:scripting/monoscript/fileName/SampleDependencyImporter.cs: 4e80419adb5c9ea134d2f34886576360 -> 
+  custom:scripting/monoscript/fileName/LeapC.cs: 199b5482924fc6e5dafbf50dfcafae5c -> 
+  custom:scripting/monoscript/fileName/ContactBoneParent.cs: 3a8373bb397a2baceb5355e2e3bea328 -> 
+  custom:scripting/monoscript/fileName/TransformHistory.cs: 26832af49495cd5374f96c83bb80989f -> 
+  custom:scripting/monoscript/fileName/AttachmentHandEnableDisable.cs: ea34776d8c9291b5c63f65339b9fc307 -> 
+  custom:scripting/monoscript/fileName/SlidingWindowThrow.cs: ad4c30111fa96fcd23d4c8d789177a20 -> 
+  custom:scripting/monoscript/fileName/HandPoseScriptableObject.cs: 8389b4cfd5162c13de2e57b0175f94dc -> 
+  custom:scripting/monoscript/fileName/InteractionManager.cs: cfa43ac53ca23c24a586a39cfce5a3cd -> 
+  custom:scripting/monoscript/fileName/PointMapping.cs: 74a9faa23fa193bf4140350c668cd796 -> 
+  custom:scripting/monoscript/fileName/Hand.cs: ada2a35ec298c35a3ea3b312ea9015f1 -> 93aaff1e58f2682a7eddebf5f692a11e
+  custom:scripting/monoscript/fileName/LeapServiceProviderEditor.cs: 79ad843728814a0953d3abea10bbe38a -> 
+  custom:scripting/monoscript/fileName/CustomPropertyDrawerBase.cs: a8ed9474cc6c04bf7f8cf34ab5b21f10 -> 
+  custom:scripting/monoscript/fileName/DistortTrackingDataToVisuals.cs: 58cb7f3aee5cd402c2db5ec7283af031 -> 
+  custom:scripting/monoscript/fileName/CombinablePropertyDrawer.cs: 644e5e4f785b4360cccc20067ff0d5bf -> 
+  custom:scripting/monoscript/fileName/KabschGraspedPose.cs: 5c7692554216dd073ff75c9a97001aeb -> 
+  custom:scripting/monoscript/fileName/CopyFromOtherExtensions.cs: 9dffed86b993e158b9253708b07d43a3 -> 
+  custom:scripting/monoscript/fileName/ContactBoneParentEditor.cs: 6665bc88e4520630f66cbdf8bac4899b -> 
+  custom:scripting/monoscript/fileName/MinMax.cs: fbed239dd9e7c8aad9375e862eb3d542 -> 
+  custom:scripting/monoscript/fileName/SerializableHashSet.cs: 0a95a82ccb282739b1a8023bd87e57a1 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoContactHand.cs: 154ea625f6eedb37c21dfd926c5b59cb -> 
+  custom:scripting/monoscript/fileName/AnchorableBehaviour.cs: 1aea7dbced545e2e8487f2bb86d35c47 -> 
+  custom:scripting/monoscript/fileName/InteractionButtonEditor.cs: 9508dcd4a52fb3a087b4adbccdaa008d -> 
+  custom:scripting/monoscript/fileName/LeapServiceProvider.cs: f7515d904ba4c3f3d9db8f106ae7f99b -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionManager.cs: c1d07d255f4ffa1d2816e36ae5551351 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DisableIf.cs: 40e20462102b9a7128af55a8af73696b -> 
+  custom:scripting/monoscript/fileName/StructMarshal.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/HandUtils.cs: 4d981cb74852a193064363ca4d9069b2 -> 
+  custom:scripting/monoscript/fileName/SceneReadmePingEditor.cs: 97109080a50147c1c49ee1ffcf99e4b2 -> 
+  custom:scripting/monoscript/fileName/InteractionButton.cs: 3b22208adf5b33bd4ddfb349da418322 -> 
+  custom:scripting/monoscript/fileName/Finger.cs: ea602497b27ee7b1fb82add14bbedf65 -> 47c63a23d4568c72c9e2be18ba728ebd
+  custom:scripting/monoscript/fileName/TransformExtensions.cs: 33de45c9a4e7d28d645476b87b861946 -> 86b409a439be434295129394136400b6
+  custom:scripting/monoscript/fileName/SceneReadmePing.cs: 179b0a9117840e16cf552e5c33414c9f -> 
+  custom:scripting/monoscript/fileName/HandPoseValidator.cs: 372fe3f32029580835d71f4e57b03502 -> 
+  custom:scripting/monoscript/fileName/Swizzle.cs: e0dc594f26c1eef6eba2bf205bc6aed0 -> 
+  custom:scripting/monoscript/fileName/ultraleap.cs: 7fecbedac4e6d87bf0eea22f36a44fc9 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEventsEditor.cs: 8773215a67eb048b7faa0b2c4fb3b674 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 6333d15e7e6fdc49993450371b2e4e11 -> 86574b69357c867af50ed60460a14a44
+  custom:scripting/monoscript/fileName/HandBinderData.cs: 599f9731fc80d77d00442aa8c92d950b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/AndroidServiceBinder.cs: 9d36ba182618b43a5439b3b89275846a -> 
+  custom:scripting/monoscript/fileName/SingleLayerEditor.cs: a841c4cd968a965dabf7d0e26e745bd7 -> 
+  custom:scripting/monoscript/fileName/HandTrackingHintManager.cs: a74dc97178c531c776c1eb534d043fb5 -> 
+  custom:scripting/monoscript/fileName/SoftContactParent.cs: 03d3e4282b6baf2ff0500b48d6c29d07 -> 
+  custom:scripting/monoscript/fileName/ShowArm.cs: a8605e01a31a430026828d01e2c29895 -> 
+  custom:scripting/monoscript/fileName/LeapImageRetriever.cs: ea63d578af3c2ee9c95dfdd8ca8a7d5f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IThrowHandler.cs: d9c31609fae492ad77b553a571984249 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsButton.cs: 6bab7047b34117757085ce24fb294e1f -> 
+  custom:scripting/monoscript/fileName/KinematicGraspedMovement.cs: 3dd2c2ee31d1ab1e7f63423531043908 -> 
+  custom:scripting/monoscript/fileName/HandBinderAutoBinder.cs: 5483a39b8c9580b9fa6233b1e7492c51 -> 
+  custom:scripting/monoscript/fileName/IInternalInteractionController.cs: aa2c3c8d855547a16403266674efc32a -> 
+  custom:scripting/monoscript/fileName/InspectorName.cs: 388bc944668caf452ed5170aa12ad1b5 -> 
+  custom:scripting/monoscript/fileName/SimpleAnchorFeedback.cs: c8977b26e238f08ff753dce2a8c39f0b -> 
+  custom:scripting/monoscript/fileName/Comment.cs: 8fcd09e46ac3ab712fde4875847c5a08 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsSettings.cs: 83d4de6aad85a0ca963bfbb594d9ca98 -> 
+  custom:scripting/monoscript/fileName/PostProcessProvider.cs: 6abf6d1024a77e598c63d69824659da3 -> 
+  custom:scripting/monoscript/fileName/SceneReadme.cs: 8d693ab2a90c4ce951a6a99d512e7de0 -> 
+  custom:scripting/monoscript/fileName/GrabBall.cs: 267bbd0d1837de34ecac50e7a4156816 -> 
+  custom:scripting/monoscript/fileName/Config.cs: 6db961422a9eb4ebb513fcaebf633aea -> 
+  custom:scripting/monoscript/fileName/PrefabCreateMenu.cs: 824eef5039ecb1c3a2ba97f088b746a2 -> 
+  custom:scripting/monoscript/fileName/ContactUtils.cs: 0e2ea456c5d4038e2aa93330b7e5da75 -> 
+  custom:scripting/monoscript/fileName/HandBinder.cs: 18fbe7065591124648e21b51b465efe8 -> 
+  custom:scripting/monoscript/fileName/MemoryManager.cs: 2338971ab50b15cd7d4fd5181ba63ee3 -> 
+  custom:scripting/monoscript/fileName/HandModel.cs: 1ff722b1cfc7e6d9591ae9679ce8fd35 -> 
+  custom:scripting/monoscript/fileName/Extensions.cs: 279e2c93b0e755f09b9bf7d2ea2dd69d -> 
+  custom:scripting/monoscript/fileName/hand_tracking_preprocessing.cs: aaf678980477486939c576d3bce5e76c -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManager.cs: 893866cedffd4c3b67e5495a3cd9bb46 -> 
+  custom:scripting/monoscript/fileName/AnchorGroup.cs: e2bae576539b2ef394174db04dcd4130 -> 
+  custom:scripting/monoscript/fileName/GrabBallEditor.cs: ccde7c6cf91899ce298c31769d7bf45f -> 
+  custom:scripting/monoscript/fileName/SoftContactHand.cs: 2ba873edbe9b995b33341189dd7fbeed -> 
+  custom:scripting/monoscript/fileName/ColliderUtil.cs: 17144c2a6566a88926d8ccc332a57c4f -> 
+  custom:scripting/monoscript/fileName/InteractionSliderEditor.cs: 4aa8df0b8da346b432b73397f03eb23f -> 
+  custom:scripting/monoscript/fileName/InteractionSlider.cs: 460370bbf89b1a0cf86a84423ba60003 -> 
+  custom:scripting/monoscript/fileName/Frame.cs: ba75f25d179d1e97e330c8bc437b6b99 -> 
+  custom:scripting/monoscript/fileName/HeuristicGrabClassifier.cs: 8c3470083967b58bde5b5f04c65a2488 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandsManagerEditor.cs: 7d8d774a38004b46678ae5c3f64b23b4 -> 
+  custom:scripting/monoscript/fileName/HandModelManagerEditor.cs: 531bcf82587f3a804f24bfd900dba9b0 -> 
+  custom:scripting/monoscript/fileName/InteractionHand.cs: 3f387b41196ebaf0d27a8f1defcf91bc -> 
+  custom:scripting/monoscript/fileName/Events.cs: 4091a417928dbcde261d4f1fcb6298da -> 5e6fd182c984e3c981a7ddda9fb543ef
+  custom:scripting/monoscript/fileName/HandModelBase.cs: f3563b9f4768c1c2762ba30ef0fba474 -> 
+  custom:scripting/monoscript/fileName/EditTimeOnly.cs: 50fb8615f179fadd12441279258a2f5c -> 
+  custom:scripting/monoscript/fileName/MinValue.cs: 73281ad50196c4ba622966a87dd64c73 -> 
+  custom:scripting/monoscript/fileName/HandTransitionBehavior.cs: 9c22934c1a54dd0f36bf8466954458fd -> 
+  custom:scripting/monoscript/fileName/NonKinematicGraspedMovement.cs: 4c583a8a6fcd49f0a84fb63cc3eea3b7 -> 
+  custom:scripting/monoscript/fileName/ContactBone.cs: 709d8ecfbd22f5ebbcaaf5f2ebb3bd81 -> 
+  custom:scripting/monoscript/fileName/AttachmentHands.cs: ae271fe6441be6a41303c68ecdc5f61a -> 
+  custom:scripting/monoscript/fileName/HandPoseRecorder.cs: 0513a94cfadea4a022c6f5cef0dc2d0d -> 
+  custom:scripting/monoscript/fileName/HandBinderEditor.cs: 2c56f305bc31583d5134f9b6dfc09b39 -> 
+  custom:scripting/monoscript/fileName/FingerModel.cs: bd5efcee60404c7c25b94519726efed0 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: e468de4f24baf1f1698c588037629f42 -> 7f7033feb07c3327af57f8390eef395e
+  custom:scripting/monoscript/fileName/HandPoseEditorScripts.cs: df5d29132a5f952b23fdd2cc02efac5f -> 
+  custom:scripting/monoscript/fileName/DistortionData.cs: 7b00a94fc06e3d65689e0e1132c45f25 -> 
+  custom:scripting/monoscript/fileName/TestHandFactory.cs: 248a6b0a9bf7938e3cebf4c763f81dc1 -> 
+  custom:scripting/monoscript/fileName/SimpleFacingCameraCallbacks.cs: 5196a9907f73fd72ed44537d54cea46c -> 
+  custom:scripting/monoscript/fileName/AttachmentHandsEditor.cs: 869e454a27226203e410d023a713b156 -> 
+  custom:scripting/monoscript/fileName/HideInteractionHandWhenControllerMoving.cs: 6bff029c8e0ecdc37d7e102b05ebbce9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Detector.cs: 1635a550df25c976bfa1f237b32d8d7b -> 
+  custom:scripting/monoscript/fileName/ContactParent.cs: 6ee38fd0a3849d09829602d741fd0c0e -> 
+  custom:scripting/monoscript/fileName/HardContactHand.cs: 237038d8fc4b54958ec714e86c3cc339 -> 
+  custom:scripting/monoscript/fileName/PhysicalHandEvents.cs: 5b89fdee731c59dd70d84992f9a924fc -> 
+  custom:scripting/monoscript/fileName/HandTrackingSourceUtility.cs: b1eb311a4cef4a2e4740d5c667af2c18 -> 
+  custom:scripting/monoscript/fileName/HandPoseDetector.cs: e44e26702a06dc03232507824d74419e -> 
+  custom:scripting/monoscript/fileName/XRLeapProviderManagerEditor.cs: 2776be56cde9afc913454681fbcbb023 -> 
+  custom:scripting/monoscript/fileName/TrackingMarker.cs: c6632c064030b5b0b5d4656256d8969e -> 
+  custom:scripting/monoscript/fileName/FailedDevice.cs: 8df4bf9b9bc6c6361efd09f4ed24958c -> 
+  custom:scripting/monoscript/fileName/DebugHand.cs: f3b6ab0a01fccc9b12a2602438de860a -> 
+  custom:scripting/monoscript/fileName/SmoothedFloat.cs: 8b6bbc9ea5f5c41aee6eeb46a3ca0f9f -> 
+  custom:scripting/monoscript/fileName/IgnorePhysicalHands.cs: f0ac677fa5242f194ee9ce37738358fb -> 
+  custom:scripting/monoscript/fileName/MetadataUtil.cs: 5915b92c07fc932b12b3ca8ac6b8deaa -> 
+  custom:scripting/monoscript/fileName/SoftContactBone.cs: d2341bc00e1d4366913eae85dfb20592 -> 
+  custom:scripting/monoscript/fileName/DefaultXRNodeTrackingProvider.cs: e2fdf2db3694c1956a8f778d1030f95e -> 
+  custom:scripting/monoscript/fileName/AttachmentPointBehaviour.cs: 844a181cd62797aa4645240579f62cc9 -> 
+  custom:scripting/monoscript/fileName/OnEditorChange.cs: 40a4c0641793c630c7b75aa8751a91d5 -> 
+  custom:scripting/monoscript/fileName/IController.cs: f94c9a4da1c3ff42c5c0f387c1f0ed29 -> 503971aee916915c920068bae8831d09
+  custom:scripting/monoscript/fileName/Pool.cs: 0c503405c026414ee604042b00a39416 -> 
+  custom:scripting/monoscript/fileName/EnumFlags.cs: 4f08224f32f17c8cff04f283e02029ea -> 
+  custom:scripting/monoscript/fileName/IgnoreColliderForInteraction.cs: 5308bae0152c297b273fbebd0d87d98d -> 
+  custom:scripting/monoscript/fileName/LeapProvider.cs: faa937163e43a6fd3e65985c65dbb1b7 -> 
+  custom:scripting/monoscript/fileName/EnumEventTable.cs: 413231cd304a979bfc82cc42c3abcdcb -> 
+  custom:scripting/monoscript/fileName/PhysExts.cs: 37ce656c727188ee2127ddb56eafea2d -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
